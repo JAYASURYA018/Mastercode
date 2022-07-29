@@ -1,0 +1,10 @@
+{
+  "rep.pageHeader.header": "Report",
+  "rep.pageHeader.description": "",
+  "rep.pie.heading": "Target della campagna raggiunto",
+  "rep.bar.heading": "Stato del contatto",
+  "rep.scatter.heading": "Porzione di successo dei contatti in base alla campagna",
+  "rep.linewithbar.heading": "Linea con grafico a barre",
+  "rep.stackedchart.heading": "Istogramma",
+  "rep.line.heading": "Contatti elaborati dagli operatori in base alla campagna "
+}

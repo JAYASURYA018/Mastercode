@@ -1,0 +1,304 @@
+.scheduleReportsMainContainer {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.scheduleMainBar {
+  background: #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  height: 48px;
+  margin-left: 0px;
+}
+
+.dataImg {
+  margin-left: -60px;
+  margin-top: -3px;
+}
+
+.dataText {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1e2538;
+  margin-left: 10px;
+}
+
+.addNewButton.k-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fd7b38;
+  color: #ffffff;
+  width: 108px;
+  height: 30px;
+}
+
+.scheduleIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.scheduleReportHeading {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  color: #1e2538;
+}
+
+.c-main > .container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.welcomepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 78vh;
+  background-color: #ffffff;
+}
+
+.welcometext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3cc339;
+}
+
+.searchIcon {
+  position: absolute;
+  margin-left: -355px;
+  margin-top: 13px;
+}
+
+.searchBox {
+  height: 28px;
+  width: 250px;
+  font-size: 14px;
+  border-radius: 16px;
+  background-color: white;
+  padding-left: 26px;
+  margin-top: 10px;
+  border: 2px solid #f3f1ef;
+  outline: none;
+}
+
+.searchBox:focus {
+  background: #f5dfd3 !important;
+}
+
+.help {
+  float: right;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3cc339;
+}
+
+.lorem_text {
+  margin-top: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 27%;
+  text-align: center;
+  color: #1e2538;
+  font-weight: 600;
+}
+
+.mauris_text {
+  margin-top: 8px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 27%;
+  text-align: center;
+  color: #1e2538;
+  font-weight: 400;
+}
+
+.welcomeAddbtn {
+  padding: 5px;
+  width: 165px;
+  background: white;
+  border: 1px solid #fd7b38;
+  color: #fd7b38;
+  font-size: 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.watchbox {
+  margin-top: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.watchvideo {
+  color: #3cc339;
+}
+
+.divid {
+  background-color: rgba(0, 0, 0, 0.0001);
+  height: 20px;
+  width: 8px;
+  margin: 0px 4px 0px 12px;
+  -webkit-box-shadow: inset 1px 0px 0px #e5e5e4;
+          box-shadow: inset 1px 0px 0px #e5e5e4;
+}
+
+.read_artical {
+  color: #3cc339;
+}
+
+.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 2em;
+          column-gap: 2em;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.mainbar {
+  height: 48px;
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.bodycontainer {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.inputDescription {
+  height: 28px;
+  color: #a2a19c;
+  width: 426px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.scheduleBodyContainer {
+  margin-top: 2px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.k-dropdown .scheduleDropDownList,
+.k-dropdown-wrap {
+  color: #a2a19c;
+  font-size: 13px;
+  font-weight: 100px;
+  height: 28px;
+  width: 426px !important;
+}
+
+.k-button k-create:disabled {
+  color: #a2a19c;
+  background-color: #5b5752;
+  margin-left: 8px;
+}
+
+.k-i-clock::before {
+  content: "\e006";
+  color: #fd7b38;
+}
+
+.timePicker {
+  height: 28px;
+  width: 426px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.selectDropDown {
+  width: 426px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.para {
+  font-size: 10px;
+}
+
+.inputs {
+  margin-top: 17px;
+}
+
+.addicon {
+  margin-left: 8px;
+}
+
+.icon {
+  margin-left: 5px;
+}
+
+.popupIcon {
+  margin-right: 10px;
+}
+
+.editDelete {
+  color: #a2a19c;
+}
+
+.nameField {
+  color: #1e2538;
+  font-weight: bold !important;
+}
+
+.ScheduleReportAddNew {
+  margin-top: 12px;
+  background: #ffffff;
+  width: 205px;
+  height: 27px;
+  border-radius: 16px;
+  border: 1px solid #fd7b38;
+  -webkit-box-shadow: 0px 0px 0px #e3e3e0;
+          box-shadow: 0px 0px 0px #e3e3e0;
+  color: #fd7b38;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 5.32px;
+}
+
+.ScheduleReportAddNew:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(253, 123, 56, 0.12)), to(rgba(253, 123, 56, 0.12)));
+  background: linear-gradient(0deg, rgba(253, 123, 56, 0.12), rgba(253, 123, 56, 0.12));
+  color: #fd7b38;
+  border: 1px solid #fd7b38;
+}
+/*# sourceMappingURL=scheduleReportsStyles.css.map */

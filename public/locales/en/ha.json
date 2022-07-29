@@ -1,0 +1,12 @@
+﻿{	
+	"ha.pageheader":"System Configuration",
+	"ha.haicon":"ha status icon",
+	"hastatus.pagetitle":"Core Server-High Availability Status",
+	"hastatus.primaryservertitle": "PRIMARY SERVER",
+	"hastatus.secondaryservertitle": "SECONDARY SERVER",
+	"hastatus.ipaddresstitle": "IP Address",
+	"hastatus.statusup": "Status - UP",
+	"hastatus.statusstandby": "Status - STANDBY",
+	"hastatus.statusdown": "Status - DOWN",
+	"hastatus.refreshmessage": "HAStatus Refresh Successfully"
+}

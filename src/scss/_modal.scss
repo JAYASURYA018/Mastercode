@@ -1,0 +1,365 @@
+@import "variables";
+@import "_mixins.scss";
+@font-face {
+	font-family: 'SFProText';
+	src: url('fonts/SFProText-Medium.woff2') format('woff2'), url('fonts/SFProText-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+.k-actions.k-actions-stretched {
+	.k-button {
+		border-radius: 25px;
+	}
+}
+
+.dialogpop .k-dialog {
+	width: 650px;
+	border-radius: 7px 7px 0px 0px;
+
+	.k-window-content {
+		padding: 0;
+
+		.tab-content-add {
+			/*height: 467px;*/
+
+			> .k-tabstrip-items {
+				min-height: 420px;
+				padding-left: 0px;
+				border: solid 1px $border-color;
+				margin-right: 10px;
+				overflow: auto;
+				width: 180px;
+
+				@include for-min-1367 {
+					margin-right: 16px;
+				}
+
+
+				.k-item {
+					padding: 8px 12px 8px 0;
+					border-bottom: 1px solid $border-color !important;
+					border-left: 0px;
+
+
+					&.k-state-disabled {
+						padding-bottom: 8px;
+						opacity: 1;
+						.k-link {
+							font-size: 12px;
+							font-weight: 700;
+							text-align: center;
+							display: inline-block;
+							padding-bottom: 0px;
+							label {
+								margin-bottom: 0px;
+							}
+						}
+					}
+
+					&.k-state-active {
+						.k-link {
+							[class*="icon-"] {
+								color: $primary;
+
+								span {
+									color: $label-color;
+								}
+							}
+
+							i {
+								display: block;
+							}
+						}
+					}
+
+					.k-link {
+						padding: 2px 0px 2px 12px;
+						display: flex;
+						justify-content: space-between;
+
+						&:hover {
+							i {
+								display: block;
+							}
+						}
+
+						&:active {
+							i {
+								display: block;
+							}
+						}
+
+						span[class*="icon-"] {
+							> span {
+								font-size: 13px;
+								vertical-align: text-bottom;
+								display: inline-block;
+								padding-bottom: 4px;
+								padding-left: 7px;
+								font-weight: 700;
+								font-family: "SFProText", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+							}
+						}
+
+						i {
+							display: none;
+						}
+					}
+				}
+			}
+
+			> .k-content {
+				border-left-width: 1px;
+				padding: 0px;
+				border-radius: 3px;
+
+				.k-tabstrip-top {
+					> .k-tabstrip-items {
+						background-color: #fff;
+					}
+
+					> .k-content {
+						background-color: $bg-grey;
+						padding-right: 0px;
+						padding-bottom: 0px;
+						border: 0px;
+
+						.dialog-content {
+							padding: 0px 36px 0px;
+							overflow: auto;
+
+							.col-md-8 {
+								div.timeRange {
+									&:first-child {
+										margin-top: 0px;
+									}
+
+									margin-top: 12px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.k-tabstrip-top {
+			> .k-tabstrip-items {
+				padding-top: 12px;
+				padding-left: 24px;
+			}
+		}
+
+		.title {
+			font-size: 12px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: .5px;
+			color: $label-color;
+		}
+
+		.heading {
+			background: var(--title-bg);
+			color: var(--title-color);
+			border-radius: 6px 6px 0px 0px;
+			padding: 15px 20px;
+			font-size: 16px;
+			margin-bottom: 0px;
+
+			> i {
+				&:first-child {
+					margin-right: 10px;
+				}
+			}
+
+			.border-right {
+				border-color: $disable-text !important;
+			}
+
+			.right {
+				float: right;
+			}
+
+			.k-textbox:focus {
+				background: linear-gradient( 0deg, rgba(253, 123, 56, 0.25), rgba(253, 123, 56, 0.25) ), linear-gradient(0deg, #ffffff, #ffffff);
+			}
+
+			label {
+				font-size: 16px;
+				font-weight: bold;
+				color: $h-label;
+			}
+
+			input {
+				min-width: 40%;
+				max-width: 45%;
+				font-size: 16px;
+				font-weight: bold;
+			}
+
+			.k-button {
+				background-color: transparent;
+				background-image: none;
+
+				&:nth-child(2) {
+					margin-left: 4px;
+				}
+
+				&:disabled {
+					background: $pop-btn-disable-bg;
+					color: $disable-text;
+				}
+
+				&.k-create {
+					box-shadow: 0 0 0;
+					background: $pop-btn-disable-bg;
+					color: $disable-text;
+					cursor: no-drop;
+				}
+
+				&.k-primary {
+					color: $primary;
+					background-color: transparent;
+
+
+					&:hover {
+						background-color: $primary;
+						color: #fff;
+					}
+				}
+
+				&.k-secondary {
+					background-color: $primary;
+					color: #fff;
+
+					&:hover {
+						background-color: transparent;
+						color: $primary;
+					}
+				}
+
+				&.k-disable {
+					background-color: $h-btn-disable-bg;
+					margin-right: 5px;
+					color: $disable-text;
+					box-shadow: inset 0 0 0 0px $h-btn-disable-bg;
+					border: 0 none;
+
+					&:hover {
+						color: $disable-text;
+						box-shadow: inset 0 0 0 0px $h-btn-disable-bg;
+					}
+				}
+			}
+
+			i {
+				vertical-align: middle;
+				font-size: 24px;
+				cursor: pointer;
+
+				&::before {
+					color: $primary;
+				}
+			}
+
+			span {
+				cursor: pointer;
+			}
+		}
+
+		> div {
+			button {
+				&:disabled {
+					background: $btn-disable-bg;
+					color: $disable-text;
+					box-shadow: 0 0 0 0;
+				}
+			}
+		}
+
+		.k-button {
+			&.k-disable {
+				color: $disable-text;
+			}
+		}
+
+		.k-dialog-content {
+			/*padding: 15px 30px;*/
+			label {
+				&.title {
+					color: var(--label-color);
+				}
+			}
+
+		}
+
+		.k-dialog-buttongroup.k-actions-stretched {
+			border-width: 0 0 0 0;
+		}
+	}
+}
+
+.dialoguploadpopup .k-dialog {
+	background: #433e3a;
+	width: 280px;
+	height: 200px;
+
+	.k-window-content {
+		padding: 0;
+
+		.colorpopup {
+			/*border-radius: 5px 5px 0px 0px;*/
+			position: relative;
+			left: 862px;
+			right: 20.69%;
+			top: 439px;
+			bottom: 36.94%;
+			border-radius: 4px;
+
+			.triangleicon {
+				position: absolute;
+				left: 76.25%;
+				right: 22.78%;
+				top: 50.82%;
+				bottom: 48.35%;
+				Width: 14px;
+				Height: 7px;
+				/*top: 432px;
+				left: 1098px;*/
+			}
+		}
+
+
+
+		.title {
+			font-size: 12px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: .5px;
+			color: $label-color;
+		}
+
+		.headinguloadpopup {
+			background: #433e3a;
+			color: rgba(51, 222, 255, 0.75);
+			border-radius: 5px 5px 0px 0px;
+			padding: 20px;
+			font-size: 16px;
+			margin-bottom: 10px;
+
+			.closetextpopup {
+				color: #FFA64D;
+			}
+		}
+	}
+}
+
+.dividerpopup {
+	position: absolute;
+	left: 6.97%;
+	background: rgba(0, 0, 0, 0.0001);
+	box-shadow: inset 0px 1px 0px rgba(160, 163, 161, 0.75);
+	Width: 248px;
+	Height: 4px;
+}

@@ -1,0 +1,23 @@
+[
+  { "id": "1", "name": "Campaign Specific File Creation" },
+  {
+    "id": "2",
+    "name": "File Header Required"
+  },
+  {
+    "id": "3",
+    "name": "Add Double Quote"
+  },
+  {
+    "id": "4",
+    "name": "Include Only Closed Contact"
+  },
+  {
+    "id": "5",
+    "name": "Empty File Required"
+  },
+  {
+    "id": "6",
+    "name": "Append DateTime "
+  }
+]

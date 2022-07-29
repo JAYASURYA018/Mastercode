@@ -1,0 +1,21 @@
+{
+  "timezone.label.timezone": "Fuseau horaire",
+  "timezone.label.MappedTimeZone": "Fuseau horaire sélectionné",
+  "timezone.tooltip.removeZone": "Désactiver le fuseau horaire",
+  "timezone.dd.selected": "Sélectionné",
+  "timezone.dd.notSelected": "Non sélectionné",
+  "timezone.popover.selectTimeZone": "Sélectionner le fuseau horaire",
+  "timezone.popover.editTimeZone": "Modifier le fuseau horaire",
+  "timezone.alert.saved": "Fuseau horaire correctement ajouté",
+  "timezone.alert.modified": "Fuseau horaire correctement modifié",
+  "timezone.alert.deleted": "Fuseau horaire correctement supprimé",
+  "timezone.alert.delete": "Supprimer le fuseau horaire",
+  "timezone.button.Save": "Enregistrer",
+  "timezone.button.Cancel": "Annuler",
+  "timezone.myGridTimeZone.timezone.heading": "TimeZone de campagne",
+  "timezone.myGridTimeZone.description.heading": "Description",
+  "timezone.myGridTimeZone.enable.heading": "Activer",
+  "timezone.myGridTimeZone.enableInfo.heading": "Action désactivée pour les fuseaux horaires mappés à la campagne.",
+  "timezone.alt.timezone-logo": "logo du fuseau horaire",
+  "timezone.pageheader": "Configuration du système"
+}

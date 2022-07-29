@@ -1,0 +1,10 @@
+﻿{
+	"rep.pageHeader.header": "รายงาน",
+	"rep.pageHeader.description": "",
+	"rep.pie.heading":"บรรลุเป้าหมายของแคมเปญแล้ว",
+	"rep.bar.heading":"สถานะการติดต่อ",
+	"rep.scatter.heading":"ติดต่อประสบความสำเร็จปันส่วนแคมเปญฉลาด",
+	"rep.linewithbar.heading":"บรรทัดที่มีแผนภูมิแท่ง",
+	"rep.stackedchart.heading":"แผนภูมิแบบกองซ้อน",
+	"rep.line.heading":"ติดต่อโดยตัวแทน (s) แคมเปญชาญฉลาด "
+}

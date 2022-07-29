@@ -1,0 +1,10 @@
+﻿{
+	"rep.pageHeader.header": "Reports",
+	"rep.pageHeader.description": "",
+	"rep.pie.heading":"Campaign Target Achieved",
+	"rep.bar.heading":"Contact Status",
+	"rep.scatter.heading":"Contact Success Ration Campaign wise",
+	"rep.linewithbar.heading":"Line with Bar Chart",
+	"rep.stackedchart.heading":"Stacked Chart",
+	"rep.line.heading":"Contacts Processed by Agent(s) Campaign wise "
+}

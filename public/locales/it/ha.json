@@ -1,0 +1,12 @@
+{
+  "ha.pageheader": "Configurazione del sistema",
+  "ha.haicon": "iconastatoha",
+  "hastatus.pagetitle": "Stato di alta disponibilità del server principale",
+  "hastatus.primaryservertitle": "SERVER PRIMARIO",
+  "hastatus.secondaryservertitle": "SERVER SECONDARIO",
+  "hastatus.ipaddresstitle": "Indirizzo IP",
+  "hastatus.statusup": "Stato - IN ALTO",
+  "hastatus.statusstandby": "Stato - STANDBY",
+  "hastatus.statusdown": "Stato - IN BASSO",
+  "hastatus.refreshmessage": "Stato HA modificato con successo"
+}

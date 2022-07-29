@@ -1,0 +1,21 @@
+{
+  "timezone.label.timezone": "タイムゾーン",
+  "timezone.label.MappedTimeZone": "選択されたタイムゾーン",
+  "timezone.tooltip.removeZone": "ゾーンの無効化",
+  "timezone.dd.selected": "選択済み",
+  "timezone.dd.notSelected": "選択されていません",
+  "timezone.popover.selectTimeZone": "タイムゾーンの選択",
+  "timezone.popover.editTimeZone": "タイムゾーンの編集",
+  "timezone.alert.saved": "タイムゾーンを正常に追加しました",
+  "timezone.alert.modified": "タイムゾーンを正常に変更しました",
+  "timezone.alert.deleted": "タイムゾーンを正常に削除しました",
+  "timezone.alert.delete": "タイムゾーンを削除",
+  "timezone.button.Save": "保存",
+  "timezone.button.Cancel": "キャンセル",
+  "timezone.myGridTimeZone.timezone.heading": "キャンペーンタイムゾーン",
+  "timezone.myGridTimeZone.description.heading": "説明",
+  "timezone.myGridTimeZone.enable.heading": "アクティブ",
+  "timezone.myGridTimeZone.enableInfo.heading": "キャンペーンにマップされているタイムゾーンに対してそのアクションは無効です。",
+  "timezone.alt.timezone-logo": "タイムゾーンロゴ",
+  "timezone.pageheader": "システム設定"
+}

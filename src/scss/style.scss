@@ -1,0 +1,876 @@
+﻿
+// If you want to override variables do it here
+//@import '~@bootstrap/dist/css/bootstrap.min.css';
+@import "variables";
+
+
+// Import CoreUI styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Some temp fixes
+@import "fixes";
+
+//kendo react default theme
+@import "~@progress/kendo-theme-default/dist/all.scss";
+
+@import "_side-menu.scss";
+
+@import "icon.scss";
+//mixins
+@import "_mixins.scss";
+// If you want to add something do it here
+//@import "custom";
+
+.progress {
+	width: 80%;
+	float: left;
+	margin-right: 5px;
+	height: 22px;
+	overflow: hidden;
+	background-color: transparent;
+	border-radius: 4px;
+	border: solid 1px;
+
+	.progress-bar {
+		box-shadow: 0 0 0 transparent;
+		text-align: left;
+		font-weight: bolder;
+
+		span {
+			position: absolute;
+			font-weight: normal;
+		}
+	}
+}
+
+.progstat {
+	font-weight: bolder;
+	vertical-align: text-top;
+	padding-top: 4px;
+}
+
+.executing {
+	border-color: $active-bar;
+	transition: width 1s;
+
+	.progress-bar {
+		width: 50%;
+		background-color: $active-bar !important;
+		--webkit-transition: width 2s;
+		color: #3e9655;
+	}
+}
+
+.starting {
+	border-color: #c6de6e;
+	transition: width 1s;
+
+	.progress-bar {
+		width: 50%;
+		background-color: #9cb542 !important;
+		--webkit-transition: width 2s;
+	}
+}
+
+.stopped {
+	border-color: $stoped-bar;
+
+	.progress-bar {
+		background-color: $stoped-bar !important;
+		color: #e64434;
+	}
+}
+
+.c-main {
+	> .container-fluid {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+.stopping {
+	border-color: #f79a89;
+
+	.progress-bar {
+		background-color: #d77765 !important;
+	}
+}
+
+.elapsed {
+	border-color: #c1a386;
+
+	.progress-bar {
+		background-color: #ea874b !important;
+		color: #9a3d05;
+	}
+}
+
+.expired {
+	border-color: #757575;
+
+	.progress-bar {
+		background-color: #656262 !important;
+	}
+}
+
+.usersuspended {
+	border-color: #f6dca9;
+
+	.progress-bar {
+		background-color: #debb77 !important;
+	}
+}
+
+.created {
+	border-color: #9bdee7;
+
+	.progress-bar {
+		color: #258DC8;
+	}
+}
+
+.collapseVisibility {
+	display: none;
+}
+
+.makevisible {
+	display: inline-block;
+}
+
+.statusactive {
+	border-color: $active-bar;
+
+	.progress-bar {
+		background-color: $active-bar !important;
+		color: #3E9655;
+	}
+}
+
+.statusfailed {
+	border-color: #FFD8AA;
+
+	.progress-bar {
+		background-color: #FFD8AA !important;
+		color: #C26410;
+	}
+}
+
+.statuspermanentstop {
+	border-color: #FFDEDE;
+
+	.progress-bar {
+		background-color: #FFDEDE !important;
+		color: #E64434;
+	}
+}
+
+.dialoguploadpopup {
+	position: absolute;
+	left: 60.97%;
+	right: 29.03%;
+	top: 53.53%;
+	bottom: 44.94%;
+	font-family: SF Pro Text,sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 13px;
+	color: rgba(51, 222, 255, 0.75);
+}
+
+.progress-bar {
+	white-space: nowrap;
+	text-shadow: 0px 0px none;
+	padding: 2px 0 0 4px;
+	float: left;
+	width: 0;
+	height: 100%;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	background-color: #337ab7;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-transition: width 0.6s ease;
+	-o-transition: width 0.6s ease;
+	transition: width 0.6s ease;
+}
+
+.progstat {
+	display: inline;
+	float: left;
+}
+
+.progress-striped {
+	.progress-bar {
+		background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: -o-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		-webkit-background-size: 40px 40px;
+		background-size: 40px 40px;
+	}
+
+	.progress-bar-success {
+		background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: -o-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+	}
+
+	.progress-bar-info {
+		background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: -o-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+	}
+
+	.progress-bar-warning {
+		background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: -o-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+	}
+
+	.progress-bar-danger {
+		background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: -o-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+		background-image: linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+	}
+}
+
+.progress-bar-striped {
+	background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+	background-image: -o-linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+	background-image: linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent );
+	-webkit-background-size: 40px 40px;
+	background-size: 40px 40px;
+}
+
+.progress.active {
+	.progress-bar {
+		-webkit-animation: progress-bar-stripes 2s linear infinite;
+		-o-animation: progress-bar-stripes 2s linear infinite;
+		animation: progress-bar-stripes 2s linear infinite;
+	}
+}
+
+.progress-bar.active {
+	-webkit-animation: progress-bar-stripes 2s linear infinite;
+	-o-animation: progress-bar-stripes 2s linear infinite;
+	animation: progress-bar-stripes 2s linear infinite;
+}
+
+.progress-bar-success {
+	background-color: #5cb85c;
+}
+
+.progress-bar-info {
+	background-color: #5bc0de;
+}
+
+.progress-bar-warning {
+	background-color: #f0ad4e;
+}
+
+.progress-bar-danger {
+	background-color: #d9534f;
+}
+
+.k-grid {
+	td {
+		border-width: 0 0 1px 0px;
+		vertical-align: middle;
+	}
+
+	th {
+		padding: 8px 12px;
+		border-width: 0 0 1px 0px;
+		white-space: nowrap;
+		color: #7c8292;
+		background: linear-gradient(0deg, #ffffff, #ffffff);
+		box-shadow: inset 0px -1px 0px #f0f0ef;
+	}
+
+	tr.k-alt {
+		background: rgba(247, 246, 244, 0.5);
+		box-shadow: inset 0px -1px 0px #f4f4f4;
+	}
+}
+
+.k-master-row {
+	button {
+		border: 0 none;
+		background-color: transparent;
+
+		&:focus {
+			border: none 0;
+		}
+	}
+}
+
+._pr {
+	position: relative;
+}
+
+._patf {
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+
+._flex-c-se {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.popup-content {
+	padding: 30px;
+	color: #787878;
+	background-color: #fcf7f8;
+	border: 1px solid rgba(0,0,0,.05);
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.m-left {
+	margin-left: -13px
+}
+
+.mr-05 {
+	margin-right: 5px;
+}
+
+.w-58 {
+	width: 58% !important;
+}
+
+.errorlabel {
+	color: #EC4536;
+}
+
+.p-color {
+	color: $primary;
+}
+
+.label {
+	color: $label-disabled;
+}
+
+.disabledDiv {
+	pointer-events: none;
+	opacity: 0.7;
+}
+
+.permanentstop {
+	border-color: $stoped-bar;
+	transition: width 1s;
+
+	.progress-bar {
+		width: 50%;
+		background-color: $stoped-bar !important;
+		-webkit-transition: width 2s;
+		color: $stop;
+	}
+}
+
+.stopandclose {
+	background-color: #f79a89;
+
+	.progress-bar {
+		background-color: #ff0000 !important;
+	}
+}
+
+.stop {
+	background-color: #f79a89;
+
+	.progress-bar {
+		background-color: #d77765 !important;
+	}
+}
+
+.activeupload {
+	border-color: #c6de6e;
+
+	.progress-bar {
+		background-color: #9cb542 !important;
+		color: #3e9655;
+	}
+}
+
+.uploadfailed {
+	background-color: #d40c0c;
+
+	.progress-bar {
+		background-color: #670404 !important;
+	}
+}
+
+.uploadinprogress {
+	background-color: #f78d26;
+
+	.progress-bar {
+		background-color: #dd7108 !important;
+	}
+}
+
+.writeconditionsmanagecontacts {
+	-moz-appearance: textfield-multiline;
+	border: 1px solid #E1E1E1;
+	height: 120px;
+	overflow: auto;
+	padding: 2px;
+	resize: none;
+	margin-top: 11px;
+}
+
+.writeconditionsmanagecontacts-right {
+	margin-right: -23px;
+}
+
+.first-group-condition {
+	margin-top: 10px;
+}
+
+.next-group-condition {
+	margin-top: 8px !important;
+}
+
+.css-operator {
+	.chosen-container {
+		.chosen-drop {
+			border: 1px solid #ddd !important;
+			box-shadow: none !important;
+		}
+	}
+
+	.chosen-container-single {
+		.chosen-single {
+			border: 1px solid #ddd !important;
+			box-shadow: none !important;
+		}
+	}
+
+	.chosen-container-active.chosen-with-drop {
+		.chosen-single {
+			border: 1px solid #ddd !important;
+			box-shadow: none !important;
+		}
+	}
+}
+
+.css-group-operator {
+	.chosen-container-single {
+		.chosen-single {
+			border: 1px solid #ddd !important;
+			box-shadow: none !important;
+		}
+	}
+
+	.chosen-container-active.chosen-with-drop {
+		.chosen-single {
+			border: 1px solid #ddd !important;
+			box-shadow: none !important;
+		}
+	}
+
+	.chosen-container {
+		width: 16.66666666% !important;
+	}
+}
+
+.css-operator {
+	float: left;
+
+	> .col-md-3 {
+		border: solid 1px $border-color;
+		border-bottom-width: 0px;
+		height: 26px;
+		width: 40px;
+		padding: 0px;
+		margin-left: 10px;
+		border-radius: 4px 4px 0 0;
+		background: #fff;
+
+		&.grpAddFc {
+			width: 68px;
+		}
+
+		> div {
+			padding: 0px 4px;
+
+			i {
+				margin-top: 3px;
+				vertical-align: text-bottom;
+				font-size: 26px;
+				color: $disable-text;
+			}
+		}
+	}
+}
+
+.disable-group-condition {
+	cursor: not-allowed;
+}
+
+.mc-condition-disabletext-operator {
+	padding-left: 5px;
+	cursor: not-allowed !important;
+	padding-top: 1px;
+	margin-top: -4px;
+}
+
+.mc-condition-enable-operator {
+	padding-left: 5px;
+	cursor: not-allowed !important;
+	padding-top: 1px;
+	margin-top: -1px;
+}
+
+.mc-condition-disabletext-type {
+	margin-top: -4px !important;
+}
+
+.mc-condition-enable-type {
+	margin-top: -1px !important;
+}
+
+.editable-css-text {
+	border: 1px solid #ddd;
+	padding: 0 0 0 8px;
+	height: 25px;
+	white-space: nowrap;
+	line-height: 24px;
+	color: #555;
+	width: 100%;
+}
+
+.adBuilder {
+	float: right;
+	width: 167px;
+	padding: 0px;
+	color: #8E8E8E;
+
+	> div {
+		margin-left: 5px;
+	}
+}
+
+.conditionbox {
+	border: solid 1px $border-color;
+	border-radius: 3px;
+	padding: 15px 15px 0px;
+	background: #fff;
+
+	> .row {
+		margin: 0px 0px 17px;
+
+		.icon-tool-add {
+			vertical-align: text-bottom;
+		}
+
+		.icon-tool-minus {
+			font-size: 26px;
+			color: $disable-text;
+			vertical-align: text-bottom;
+		}
+
+		&.condton-row1 {
+			.col-sm-3 {
+				max-width: 29%;
+			}
+
+			.icon-tool-add {
+				vertical-align: text-bottom;
+			}
+
+			> div {
+				&:nth-child(5) {
+					max-width: 12%;
+				}
+			}
+		}
+	}
+}
+
+
+
+.selection-itembox {
+	li {
+		margin: 0;
+		padding: 5px 6px;
+		list-style: none;
+		line-height: 15px;
+		word-wrap: break-word;
+		width: 171px;
+
+		&:hover {
+			background-color: $theme-h-bg;
+			cursor: pointer;
+		}
+	}
+
+	> li.active {
+		background-color: transparent;
+		color: $primary;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	> li {
+		&:first-child {
+			&:hover {
+				background-color: transparent !important;
+				color: #F78D26 !important;
+			}
+		}
+	}
+}
+
+.selection-itembox-value {
+	li {
+		margin: 0;
+		padding: 5px 6px;
+		list-style: none;
+		line-height: 15px;
+		word-wrap: break-word;
+		width: 171px;
+
+		&:hover {
+			background-color: #f5f5f5;
+			cursor: pointer;
+		}
+	}
+
+	> li.active {
+		background-color: #f5f5f5;
+		color: #000000;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: bold;
+	}
+}
+
+.listlabelicon {
+	color: rgb(255,152,0);
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+div.listlabelicon {
+	position: absolute;
+	height: 22px;
+	padding-left: 5px;
+
+	+ {
+		div {
+			margin-top: 24px;
+		}
+	}
+}
+
+.panelaccordionheading {
+	height: 30px !important;
+	font-weight: 700;
+}
+#preloader {
+	display:none;
+}
+.loading-spinner {
+
+	#preloader {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #ccca;
+		display: block;
+		z-index: 9999999999;
+
+		.loader {
+			display: block;
+			position: relative;
+			left: 50%;
+			top: 50%;
+			width: 100px;
+			height: 100px;
+			margin: -75px 0 0 -75px;
+			border-radius: 50%;
+			border: 3px solid transparent;
+			border-top-color: #7089db;
+			-webkit-animation: spin 2s linear infinite;
+			animation: spin 2s linear infinite;
+
+			&:before {
+				content: "";
+				position: absolute;
+				top: 5px;
+				left: 5px;
+				right: 5px;
+				bottom: 5px;
+				border-radius: 50%;
+				border: 3px solid transparent;
+				border-top-color: $primary;
+				-webkit-animation: spin 3s linear infinite;
+				animation: spin 3s linear infinite;
+			}
+
+			&:after {
+				content: "";
+				position: absolute;
+				top: 15px;
+				left: 15px;
+				right: 15px;
+				bottom: 15px;
+				border-radius: 50%;
+				border: 3px solid transparent;
+				border-top-color: #8316ab;
+				-webkit-animation: spin 1.5s linear infinite;
+				animation: spin 1.5s linear infinite;
+			}
+		}
+	}
+}
+
+
+
+
+
+	@-webkit-keyframes spin {
+		0% {
+			-webkit-transform: rotate(0deg);
+			-ms-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+
+		100% {
+			-webkit-transform: rotate(360deg);
+			-ms-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
+
+	@keyframes spin {
+		0% {
+			-webkit-transform: rotate(0deg);
+			-ms-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+
+		100% {
+			-webkit-transform: rotate(360deg);
+			-ms-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
+
+	@mixin loading-spinners($activeColor: $primary, $selector: "> div::after", $time: 1.5s, $afterselect: "&::after") {
+		@keyframes spinner {
+			0% {
+				transform: translate3d(-50%, -50%, 0) rotate(0deg);
+			}
+
+			100% {
+				transform: translate3d(-50%, -50%, 0) rotate(360deg);
+			}
+		}
+
+		animation-play-state: running;
+		opacity: 1;
+		position: relative;
+
+		&.-paused {
+			animation-play-state: paused;
+			opacity: 0.2;
+			transition: opacity linear 0.1s;
+		}
+
+		#{$selector} {
+			animation: $time linear infinite spinner;
+			animation-play-state: inherit;
+			border: solid 6px #fff;
+			border-bottom-color: #{$activeColor};
+			border-radius: 50%;
+			content: "";
+			height: 70px;
+			left: 50%;
+			opacity: inherit;
+			position: absolute;
+			top: 50%;
+			transform: translate3d(-50%, -50%, 0);
+			width: 70px;
+			will-change: transform;
+			z-index: 999993;
+		}
+
+		#{$afterselect} {
+			content: '';
+			background: #c2c2c2a6;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: 99999;
+		}
+	}
+	/*
+.loading-spinner {
+	@include loading-spinner;
+	height: 100vh;
+}*/
+
+	.error-template {
+		padding: 40px 15px;
+		text-align: center;
+	}
+
+	.error-actions {
+		margin-top: 15px;
+		margin-bottom: 15px;
+
+		.btn {
+			margin-right: 10px;
+		}
+	}
+
+	body > iframe {
+		display: none !important;
+	}
+
+	.textcomplete-dropdown {
+		border: 1px solid #ddd;
+		background-color: white;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		max-height: 250px;
+		overflow-y: scroll;
+	}
+
+	.textcomplete-dropdown li {
+		margin: 0;
+	}
+
+	.textcomplete-footer,
+	.textcomplete-item {
+		border-top: 1px solid #ddd;
+	}
+
+	.textcomplete-item {
+		padding: 2px 5px;
+		cursor: pointer;
+	}
+
+	.textcomplete-item:hover,
+	.textcomplete-item.active {
+		background-color: rgb(110, 183, 219);
+	}
+
+	ul.dropdown-menu.textcomplete-dropdown {
+		z-index: 10003 !important;
+	}

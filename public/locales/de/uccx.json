@@ -1,0 +1,14 @@
+{
+  "uccx.pageHeader.header": "UCCX-Serverdetails",
+  "uccx.pageHeader.description": "",
+  "uccx.primary.name": "Primär",
+  "uccx.secondary.name": "Sekundär",
+  "uccx.param.save.success": "UCCX-Server-Anmeldedaten erfolgreich gespeichert.",
+  "uccx.url.label": "URL",
+  "uccx.api.userid.label": "Benutzername",
+  "uccx.api.userpsw.label": "Passwort",
+  "uccx.api.uccxcredentialsform.header": "Anmeldedaten UCCX-Web-API",
+  "uccx.api.finessecredentialsform.header": "Anmeldedaten Finesse-Web-API",
+  "uccx.cisco.api.server.required": "Das Feld URL-Name darf nicht leer sein.",
+  "uccx.api.url.title": "Dieses Feld ausfüllen"
+}

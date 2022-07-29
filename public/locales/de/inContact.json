@@ -1,0 +1,15 @@
+﻿{
+  "inContact.pageheader": "System Configuration",
+  "inContact.nice.inContactSettings": "NICE inContact Settings",
+  "inContactAgent.pageheader": "Agents",
+  "inContactSettings.Password": "Password",
+  "inContactSettings.ApplicationName": "Application Name",
+  "inContactSettings.VendorName": "Vendor Name",
+  "inContactSettings.BussID": "Business Unit Id",
+  "inContactSettings.title": "NICE inContact Settings",
+  "inContactSettings.tokenUrl": "Token URL",
+  "inContactAgents.AccessKey": "Access Key",
+  "inContactAgents.SecretKey": "Secret Key",
+  "inContactAgents.AccessTokenUrl": "Access Key API",
+  "inContactAgents.EndpointUrl": "Discovery URL"
+}

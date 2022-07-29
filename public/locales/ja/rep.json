@@ -1,0 +1,10 @@
+{
+  "rep.pageHeader.header": "レポート",
+  "rep.pageHeader.description": "",
+  "rep.pie.heading": "キャンペーンターゲット達成",
+  "rep.bar.heading": "コンタクト状態",
+  "rep.scatter.heading": "キャンペーンごとのコンタクト成功率",
+  "rep.linewithbar.heading": "折れ線付き棒グラフ",
+  "rep.stackedchart.heading": "積み上げグラフ",
+  "rep.line.heading": "キャンペーンごとのオペレータに処理されたコンタクト "
+}

@@ -1,0 +1,10 @@
+{
+  "rep.pageHeader.header": "Rapports",
+  "rep.pageHeader.description": "",
+  "rep.pie.heading": "Cible de campagne atteinte",
+  "rep.bar.heading": "Statut du contact",
+  "rep.scatter.heading": "Part de succès du contact par campagne",
+  "rep.linewithbar.heading": "Graphique linéaire à barres",
+  "rep.stackedchart.heading": "Graphique à barres empilées",
+  "rep.line.heading": "Contacts traités par l'agent(s) par campagne "
+}

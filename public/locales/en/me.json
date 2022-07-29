@@ -1,0 +1,25 @@
+﻿{
+	"me.exportimport": "Export/Import Campaign",
+	"me.pageheader": "System Configuration",
+	"me.selectallcheckbox.title": "Select All",
+	"me.export.campaign.success": "Campaign exported successfully.",
+	"me.export.campaign.failed": "Campaign exported failed.",
+	"me.export.radio.label": "Export",
+	"me.import.radio.label": "Import",
+	"me.choosefile": "Choose File",
+	"me.choosefiletoupload": "Choose your file here to Upload",
+	"me.selectedfile": "Selected file ",
+	"me.import.fileupload.success": "File is imported, Please choose the campaigns you wish to import.",
+	"me.import.fileupload.failed": "File uploaded failed.",
+	"me.import.campaign.success": "Campaign imported successfully.",
+	"me.import.campaign.failed": "Import fails.",
+	"me.campaignaccordion.heading": "Campaign",
+	"me.importfile.toaster": "Import the File",
+	"me.export.button.validation": "Please select campaign to export",
+	"me.import.button.validation": "Choose a file to import",
+	"me.import.campaigngroup.new": "CampaignGroup not synced",
+	"me.import.button.campaignselectionvalidation": "Please select campaign to import.",
+	"me.import.campaign.exists": "Selected campaign is already exists.",
+	"me.import.campaign.success.eligible": "Campaign imported successfully for following campaign :{{eligibleCampaign}} .Following Campaign not imported as it already exists :{{nonEligibleCampaign}}"
+
+}

@@ -1,0 +1,10 @@
+{
+  "rep.pageHeader.header": "Informes",
+  "rep.pageHeader.description": "",
+  "rep.pie.heading": "Destino de la campaña alcanzado",
+  "rep.bar.heading": "Estado del contacto",
+  "rep.scatter.heading": "Índice de éxito del contacto en relación con la campaña",
+  "rep.linewithbar.heading": "Línea con gráfico de barras",
+  "rep.stackedchart.heading": "Gráfico apilado",
+  "rep.line.heading": "Contactos procesados por agente en relación con la campaña "
+}

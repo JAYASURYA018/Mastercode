@@ -1,0 +1,14 @@
+{
+  "uccx.pageHeader.header": "Dettagli del server UCCX",
+  "uccx.pageHeader.description": "",
+  "uccx.primary.name": "Primario",
+  "uccx.secondary.name": "Secondario",
+  "uccx.param.save.success": "Credenziali del server UCCX salvate con successo.",
+  "uccx.url.label": "URL",
+  "uccx.api.userid.label": "Nome utente",
+  "uccx.api.userpsw.label": "Password",
+  "uccx.api.uccxcredentialsform.header": "Credenziali web API UCCX",
+  "uccx.api.finessecredentialsform.header": "Credenziali web API Finesse",
+  "uccx.cisco.api.server.required": "Il campo Nome URL non può essere lasciato vuoto.",
+  "uccx.api.url.title": "Compila questo campo"
+}

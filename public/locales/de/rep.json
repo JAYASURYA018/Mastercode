@@ -1,0 +1,10 @@
+{
+  "rep.pageHeader.header": "Berichte",
+  "rep.pageHeader.description": "",
+  "rep.pie.heading": "Kampagnenziel erreicht",
+  "rep.bar.heading": "Kontaktstatus",
+  "rep.scatter.heading": "Kontakterfolgsverhältnis pro Kampagne",
+  "rep.linewithbar.heading": "Zeile mit Balkendiagramm",
+  "rep.stackedchart.heading": "Stapeldiagramm",
+  "rep.line.heading": "Von Agent(s) bearbeitete Kontakte pro Kampagne "
+}

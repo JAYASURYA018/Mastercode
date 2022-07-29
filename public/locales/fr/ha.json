@@ -1,0 +1,12 @@
+{
+  "ha.pageheader": "Configuration du système",
+  "ha.haicon": "hastatusicon",
+  "hastatus.pagetitle": "État de haute disponibilité du serveur de base",
+  "hastatus.primaryservertitle": "SERVEUR PRINCIPAL",
+  "hastatus.secondaryservertitle": "SERVEUR SECONDAIRE",
+  "hastatus.ipaddresstitle": "Adresse IP",
+  "hastatus.statusup": "ÉTAT - ACTIF",
+  "hastatus.statusstandby": "ÉTAT - EN VEILLE",
+  "hastatus.statusdown": "ÉTAT - INACTIF",
+  "hastatus.refreshmessage": "A l'état Actualisation réussie"
+}

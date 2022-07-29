@@ -1,0 +1,12 @@
+{
+  "ha.pageheader": "システム設定",
+  "ha.haicon": "hastatusicon",
+  "hastatus.pagetitle": "コアサーバ - 高可用性状態",
+  "hastatus.primaryservertitle": "プライマリサーバ",
+  "hastatus.secondaryservertitle": "セカンダリサーバ",
+  "hastatus.ipaddresstitle": "IP アドレス",
+  "hastatus.statusup": "状態 - アップ",
+  "hastatus.statusstandby": "状態 - スタンバイ",
+  "hastatus.statusdown": "状態 - ダウン",
+  "hastatus.refreshmessage": "HA 状態が正常にリフレッシュされました"
+}

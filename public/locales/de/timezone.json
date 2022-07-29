@@ -1,0 +1,21 @@
+{
+  "timezone.label.timezone": "Zeitzone",
+  "timezone.label.MappedTimeZone": "Ausgewählte Zeitzone",
+  "timezone.tooltip.removeZone": "Zeitzone deaktivieren",
+  "timezone.dd.selected": "Ausgewählt",
+  "timezone.dd.notSelected": "Nicht ausgewählt",
+  "timezone.popover.selectTimeZone": "Zeitzone auswählen",
+  "timezone.popover.editTimeZone": "Zeitzone bearbeiten",
+  "timezone.alert.saved": "Zeitzone erfolgreich hinzugefügt",
+  "timezone.alert.modified": "Zeitzone erfolgreich geändert",
+  "timezone.alert.deleted": "Zeitzone erfolgreich gelöscht",
+  "timezone.alert.delete": "Zeitzone löschen",
+  "timezone.button.Save": "Speichern",
+  "timezone.button.Cancel": "Abbrechen",
+  "timezone.myGridTimeZone.timezone.heading": "Kampagnen-Zeitzone",
+  "timezone.myGridTimeZone.description.heading": "Beschreibung",
+  "timezone.myGridTimeZone.enable.heading": "Aktivieren",
+  "timezone.myGridTimeZone.enableInfo.heading": "Aktion für der Kampagne zugeordnete Zeitzonen deaktiviert.",
+  "timezone.alt.timezone-logo": "Zeitzonenlogo",
+  "timezone.pageheader": "Systemkonfiguration"
+}

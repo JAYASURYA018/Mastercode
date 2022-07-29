@@ -1,0 +1,21 @@
+{
+  "timezone.label.timezone": "Fuso orario",
+  "timezone.label.MappedTimeZone": "Fuso orario selezionato",
+  "timezone.tooltip.removeZone": "Disabilita fuso",
+  "timezone.dd.selected": "Selezionato",
+  "timezone.dd.notSelected": "Non selezionato",
+  "timezone.popover.selectTimeZone": "Seleziona fuso orario",
+  "timezone.popover.editTimeZone": "Modifica fuso orario",
+  "timezone.alert.saved": "Fuso orario aggiunto con successo",
+  "timezone.alert.modified": "Fuso orario modificato con successo",
+  "timezone.alert.deleted": "Fuso orario eliminato con successo",
+  "timezone.alert.delete": "Elimina fuso orario",
+  "timezone.button.Save": "Salva",
+  "timezone.button.Cancel": "Annulla",
+  "timezone.myGridTimeZone.timezone.heading": "Fuso orario della campagna",
+  "timezone.myGridTimeZone.description.heading": "Descrizione",
+  "timezone.myGridTimeZone.enable.heading": "Abilita",
+  "timezone.myGridTimeZone.enableInfo.heading": "Azione disabilitata per i fusi orari mappati sulla campagna.",
+  "timezone.alt.timezone-logo": "logo fuso orario",
+  "timezone.pageheader": "Configurazione del sistema"
+}

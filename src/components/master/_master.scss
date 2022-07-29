@@ -1,0 +1,174 @@
+﻿@import "../../scss/_mixins.scss";
+@import "../../scss/_variables.scss";
+.settings {
+    width: 350px;
+    padding: 20px 44px 20px 8px;
+
+    > .title {
+        margin-bottom: 24px;
+        margin-left: 28px;
+    }
+
+    .color-themes {
+        margin-left: 28px;
+
+        li.k-radio-item {
+            > label {
+                display: none;
+            }
+
+            > input {
+                background: $primary;
+                height: 20px;
+                width: 20px;
+                border: 4px solid transparent;
+                box-shadow: 0 0 0;
+
+                &:checked {
+                    border-color: orangered;
+                }
+            }
+
+            &:nth-child(2) {
+                > input {
+                    background: $i-blue;
+                }
+            }
+
+            &:nth-child(3) {
+                > input {
+                    background: $i-green;
+                }
+            }
+
+            &:nth-child(4) {
+                > input {
+                    background: $i-purple;
+                }
+            }
+
+            &:nth-child(5) {
+                > input {
+                    background: $i-violet;
+                }
+            }
+        }
+
+        span[class^="themes-"] {
+            height: 24px;
+            width: 24px;
+            float: left;
+            cursor: pointer;
+            transition: box-shadow 500ms;
+            border-radius: 50%;
+            margin-right: 20px;
+
+            &:hover {
+                /*transition: box-shadow 500ms;
+                box-shadow: 0px 0px 0px 6px red;*/
+            }
+        }
+
+        .themes-grey {
+            background-color: grey;
+
+            &:hover {
+                box-shadow: 0px 0px 0px 6px grey;
+            }
+        }
+
+        .themes-orange {
+            background-color: $i-purple;
+
+            &:hover {
+                box-shadow: 0px 0px 0px 6px $i-purple;
+            }
+        }
+
+        .themes-blue {
+            background-color: $i-blue;
+
+            &:hover {
+                box-shadow: 0px 0px 0px 6px $i-blue;
+            }
+        }
+
+        .themes-red {
+            background-color: $i-violet;
+
+            &:hover {
+                box-shadow: 0px 0px 0px 6px $i-violet;
+            }
+        }
+    }
+
+    .logo {
+        .title {
+            margin-bottom: 24px;
+            background-color: transparent;
+            border: 0 none;
+
+            .icon-dropdown-chevron {
+                vertical-align: bottom;
+            }
+        }
+
+        > label {
+            margin-left: 28px;
+        }
+
+        > div {
+            margin-left: 28px;
+
+            > label {
+                width: 100%;
+
+                > span {
+                    float: right;
+                }
+            }
+
+            .input-group {
+                > input {
+                    width: 0;
+                    height: 0;
+                    border: 0 none;
+                    padding: 0;
+
+                    &:focus {
+                        border: 0px;
+                        box-shadow: 0 0 0;
+                    }
+                }
+
+                .input-file-upload {
+                    position: absolute;
+                    content: '';
+                    width: 270px;
+                    height: 28px;
+                    border: solid 1px #ccc;
+                    border-radius: 3px;
+                    margin-bottom: 0px;
+                    cursor: pointer;
+                }
+
+                .input-group-text {
+                    border: 0px none;
+                    background: transparent;
+                    font-size: 13px;
+                    padding: 4px 6px 4px 212px;
+                    z-index: 1;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .langualge {
+        margin-left: 28px;
+
+        > .title {
+            margin-bottom: 24px;
+        }
+    }
+}

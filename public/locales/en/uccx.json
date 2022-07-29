@@ -1,0 +1,14 @@
+﻿{	
+	"uccx.pageHeader.header": "UCCX Server Details",
+	"uccx.pageHeader.description": "",
+	"uccx.primary.name":"Primary",
+	"uccx.secondary.name":"Secondary",
+	"uccx.param.save.success":"UCCX Server Credentials Saved Successfully.",
+	"uccx.url.label":"URL",
+	"uccx.api.userid.label":"User Name",
+	"uccx.api.userpsw.label":"Password",
+	"uccx.api.uccxcredentialsform.header":"UCCX web API Credentials",
+	"uccx.api.finessecredentialsform.header":"Finesse web API Credentials",
+	"uccx.cisco.api.server.required":"URL Name field cannot be empty.",
+	"uccx.api.url.title":"Fill this field"
+	}

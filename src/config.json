@@ -1,0 +1,6 @@
+{
+  "AppSettings": {
+    "WebApiBaseUrl": "https://ceteamdev.acqueonlab.com/AEApiGateway",
+    "IdentityServerAuthorityUrl": "https://ceteamdev.acqueonlab.com/AEIdentityServer"
+  }
+}

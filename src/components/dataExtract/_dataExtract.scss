@@ -1,0 +1,1069 @@
+@import "../../scss/variables";
+
+@mixin flexbox($direction, $content) {
+  display: $flexbox;
+  flex-direction: $direction;
+  justify-content: $content;
+}
+
+$flexbox: flex;
+$textDecoration: none;
+$backgroundColor: #1e2538;
+$textAlign: center;
+$color: #fd7b38;
+$white: #ffffff;
+$cursor: pointer;
+$green: #3cc339;
+
+@mixin flexbox($direction, $content) {
+  display: $flexbox;
+  flex-direction: $direction;
+  justify-content: $content;
+}
+
+@mixin fontSize($size) {
+  font-size: $size;
+}
+
+@mixin button {
+  color: #fd7b38;
+  font-size: 12px;
+  border-radius: 16px;
+}
+
+@function weights($weight) {
+  @return map-get($font-weights, $weight);
+}
+
+$font-weights: (
+  "regular": 400,
+  "medium": 600,
+  "bold": 700,
+);
+
+@mixin fontSize($size) {
+  font-size: $size;
+}
+
+@mixin button {
+  color: #fd7b38;
+  font-size: 12px;
+  border-radius: 16px;
+}
+
+.dataExtractExit {
+  @include button();
+  border: 1px solid #e3e3e0;
+  font-weight: map-get($font-weights, medium);
+  margin-right: 30px;
+  width: 80px;
+  height: 28px;
+  background-color: #fff;
+  cursor: pointer;
+  float: right;
+  box-shadow: none;
+}
+
+.dataExtractData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  height: 78vh;
+}
+
+.welcometext {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(60, 195, 57, 1);
+}
+
+.loremText {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 27%;
+  text-align: center;
+  color: rgba(30, 37, 56, 1);
+  font-weight: 600;
+}
+
+.maurisText {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  text-align: center;
+  color: rgba(30, 37, 56, 1);
+  font-weight: 400;
+}
+.dataextractmainpage {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.dataExtractButton {
+  padding: 5px;
+  width: 165px;
+  background: white;
+  border: 1px solid $color;
+  @include button();
+  cursor: $cursor;
+  margin-top: 10px;
+}
+
+.dataExtractButton:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(253, 123, 56, 0.12),
+      rgba(253, 123, 56, 0.12)
+    ),
+    $white;
+}
+
+.watchbox {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+}
+
+.watchvideo {
+  color: $green;
+}
+
+.divid {
+  background-color: rgba(0, 0, 0, 0.0001);
+  height: 20px;
+  width: 8px;
+  margin: 0px 4px 0px 12px;
+  box-shadow: inset 1px 0px 0px #e5e5e4;
+}
+
+.read_artical {
+  color: $green;
+}
+
+.dataHelp {
+  .help-btn {
+    border-radius: 2px;
+    color: #3cc339;
+    font-size: 12px;
+    margin-left: 33px;
+  }
+}
+
+.divider {
+  float: right;
+  margin: 10px 5px;
+}
+
+.watchVideo {
+  font-weight: 500;
+  @include fontSize(12px);
+  line-height: 14px;
+  text-align: $textAlign;
+  margin-top: 50px;
+  color: #3cc339;
+}
+
+.search-icon {
+  margin-left: 29px;
+  position: absolute;
+
+  margin-top: 7px;
+
+  z-index: 1;
+  color: #a2a19c;
+}
+
+.st-data .k-step-label {
+  display: inline-table;
+}
+
+.st-data,
+.k-stepper .k-step-list-horizontal .k-step-link {
+  display: inline-flex;
+}
+
+.stepper-wrapper {
+  .k-stepper .k-step-list {
+    width: 55%;
+  }
+}
+
+.stepper-wrapper {
+  .k-step-label {
+    color: #7c8292;
+  }
+
+  .k-step-done {
+    .k-step-indicator-text {
+      color: white;
+      background-color: #7ed321;
+    }
+    .k-step-label {
+      font-weight: bold;
+      color: #1e2538;
+    }
+  }
+  .k-step-current {
+    .k-step-label {
+      font-weight: bold;
+      color: #1e2538;
+    }
+  }
+}
+
+.selectCampaginData {
+  margin-top: 30px;
+  margin-left: 48px;
+}
+
+.selectCampaginDescription {
+  color: #7c8292;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.mayDataExtractInput {
+  background: #433e3a;
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: inset 0px 0px 0px 1px #433e3a;
+  border: none;
+  border-radius: 3px;
+  margin-top: -2px;
+
+  margin-left: -7px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.mayDataExtractInput:hover {
+  background-color: #433e3a;
+
+  box-shadow: inset 0px 0px 0px 1px #433e3a;
+  border: none;
+}
+.mayDataExtractInput:focus {
+  color: black !important;
+  border-radius: 3px;
+  background: linear-gradient(
+    0deg,
+    rgba(253, 123, 56, 0.25),
+    rgba(253, 123, 56, 0.25)
+  );
+}
+
+.selectCampDescription {
+  max-width: 426px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #1e2538;
+
+  border-radius: 3px;
+  margin-top: 1px;
+}
+
+.selectCampaginTimeZones {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7c8292;
+  margin-top: 13px;
+  margin-bottom: 6px;
+}
+
+.inputTimeZone {
+  height: 28px;
+  max-width: 426px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #a2a19c;
+  border: 1px solid rgba(228, 228, 222, 0.5);
+  padding: 4px 5px;
+  border-radius: 3px;
+  margin-top: 19px;
+}
+
+.Campaigns {
+  color: #1e2538;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.campaignsData1 {
+  border: 1px solid #f2f2f2;
+
+  margin-top: 10px;
+  width: 96%;
+  height: 288px;
+}
+
+.campaignsData {
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 1px solid #f2f2f2;
+  height: 37px;
+  background-color: rgba(247, 246, 244, 0.5);
+}
+
+.inputCheckbox {
+  position: relative;
+  top: 3px;
+  .k-checkbox-label {
+    color: #7c8292;
+    font-size: 11px;
+    font-weight: 400;
+  }
+}
+.campaignsDataSelectAll {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.campaignsDataAvailable {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+.campaignsDataDot {
+  color: #ff7b2b;
+  margin: 3px;
+}
+.campaignsDataNum {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+}
+.campaignsDataSelected {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 27px;
+}
+.campaignsDataSelectedDot {
+  color: #ff7b2b;
+  margin: 3px;
+}
+.campaignsDataNumZero {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+}
+.campaignsDataSearchImg {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.campaignsList {
+  height: 82%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  overflow: auto;
+}
+
+.campaignsDataInput {
+  width: 266px;
+  border-radius: 16px;
+
+  border: 1px solid #f2f2f2;
+  font-size: 12px;
+  font-weight: 400;
+  height: 26px;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+.campaignsListBoth {
+  margin-bottom: 15px;
+}
+
+.campaignsListCheckbox {
+  color: #1e2538;
+
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+  margin-top: 6px;
+}
+.campaignsListData {
+  font-weight: 600;
+  color: #1e2538;
+  font-size: 13px;
+
+  margin-left: 4px;
+  margin-bottom: 10px;
+}
+
+.campaignsButton {
+  text-align: center;
+}
+
+.arrow {
+  color: #a2a19c;
+  font-size: 12px;
+  width: 8px;
+}
+
+.selectedArrow {
+  color: white;
+  background-color: #fd7b38;
+}
+
+.selectedArrow i {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.k-i-arrow-60-right-overlay,
+.k-i-arrow-60-right::before {
+  content: "\1F862";
+  color: #fd7b38;
+  font-size: 20px;
+}
+
+.k-i-arrow-60-left-overlay,
+.k-i-arrow-60-left::before {
+  content: "\1F860";
+  color: #fd7b38;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.k-i-arrow-double-60-right-overlay,
+.k-i-arrow-double-60-right::before {
+  content: "\00BB";
+  color: #fd7b38;
+  padding-bottom: 10px;
+
+  font-size: 31px;
+}
+
+.k-i-arrow-double-60-left-overlay,
+.k-i-arrow-double-60-left::before {
+  content: "\00AB";
+  color: #fd7b38;
+  padding-bottom: 10px;
+
+  font-size: 31px;
+}
+
+.k-i-arrow-60-up::before {
+  content: "\1F861";
+  color: #fd7b38;
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+
+.k-i-arrow-60-down::before {
+  content: "\1F863";
+  color: #fd7b38;
+  font-size: 20px;
+}
+
+.dualListData {
+  .k-button.k-button-icon {
+    width: calc(1.4285714286em + 40px);
+    height: calc(1.4285714286em + 15px);
+    background-color: #ffff;
+    padding: 8px;
+  }
+}
+
+// .listbox.k-listbox-toolbar-right .k-listbox-toolbar ul {
+//   margin-left: 10px;
+//   margin-right: 13px;
+// }
+
+.k-listbox.k-listbox-toolbar-right .k-listbox-toolbar {
+  margin-left: 21px;
+  margin-right: 20px;
+}
+
+.availableListBox {
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.create-contactStrategy
+  .k-dialog
+  .k-window-content
+  .example-config
+  > div
+  .container {
+  min-height: calc(100vh - 422px);
+}
+.k-listbox-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dualApp {
+  margin-right: 24px;
+}
+
+.k-i-clock::before {
+  content: "\e006";
+  color: #fd7b38;
+}
+
+.k-timepicker .k-select {
+  background-color: #fff;
+  background-image: none;
+}
+
+.k-dropdown span.k-input {
+  font-weight: 400;
+}
+
+.scheduleConfig {
+  width: 100%;
+  padding-left: 35px;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+.runType {
+  color: #7c8292;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.scheduleRadioInput {
+  position: relative;
+  top: 2px;
+}
+
+.scheduleTimInput,
+.onDemandInput {
+  position: relative;
+  top: 2px;
+  margin-left: 22px;
+}
+
+.runDays {
+  margin-top: 15px;
+  color: #7c8292;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.RunDaysCheckbox {
+  margin-left: 11px;
+  position: relative;
+  top: 6px;
+}
+
+.days,
+.weekDays {
+  padding-left: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7c8292;
+}
+
+.dateTimeRange {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.datePicker {
+  width: 220px;
+  height: 28px;
+}
+
+.dateRange,
+.timeRange {
+  font-weight: 400;
+  font-size: 12px;
+  color: #7c8292;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.weekDaysActive {
+  font-weight: 500;
+  font-size: 12px;
+  color: #1e2538;
+  padding-left: 5px;
+}
+
+.TimeInterval {
+  margin-top: 6px;
+  color: #7c8292;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.Time {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.count {
+  margin-left: 10px;
+  border: 1px solid #f2f2f2;
+  height: 28px;
+}
+
+input[type="radio"] {
+  accent-color: #e8741899;
+}
+
+.incrementDecrement,
+.increment,
+.decrement {
+  border: none;
+  background-color: white;
+}
+
+.incrementDecrement {
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.fileName {
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7c8292;
+}
+
+.fileExtension {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7c8292;
+  margin-bottom: 4px;
+}
+
+.fileNameInput {
+  width: 426px;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid #f2f2f2;
+  margin-top: 5px;
+}
+
+.fileExtensionDropdown {
+  width: 426px;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid #f2f2f2;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #1e2538;
+}
+
+input:focus {
+  outline: none;
+}
+
+.data1 {
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 88%;
+  margin-top: 11px;
+}
+
+.campData {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 20px;
+}
+
+.campAndToggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.toggle {
+  margin-top: 13px;
+  padding-top: 2px;
+}
+
+.outcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.outcome1 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 13px;
+  right: 44%;
+}
+
+.dataSourceAssButtonLeft {
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  width: 60px;
+  height: 28px;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.dataSourceAssButtonImg {
+  padding-bottom: 5px;
+}
+
+.timeForEOD {
+  margin-top: 18px;
+  color: #7c8292;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.timeEOD,
+.timeEODSelect {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1e2538;
+  border: 1px solid #f2f2f2;
+  margin-top: 5px;
+}
+
+.timeEODSelect {
+  width: 96px;
+  padding: 4px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.DataAndTimeRange {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 13px;
+}
+
+.DataRange {
+  font-weight: 600;
+  font-size: 13px;
+  color: #7c8292;
+}
+
+.outcomesdata {
+  .k-radio + .k-radio-label {
+    margin-left: 7px;
+    margin-right: 15px;
+  }
+}
+
+.lastOutcomesdata {
+  .k-radio + .k-radio-label {
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+}
+.attempts {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7c8292;
+  margin-bottom: 10px;
+  // display: inline-flex;
+}
+
+.rangePickers {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+// .k-daterangepicker-wrap {
+//   margin-right: 20px;
+// }
+.k-toolbar .row .search-input input {
+  width: 45%;
+  border-radius: 18px;
+  padding-left: 35px;
+  height: 28px;
+  position: relative;
+
+  left: 190px;
+}
+
+.search-input {
+  display: flex;
+}
+.side-icons {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.search-icon .icon-tool-search {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.k-toolbar .row .search-input span.border-left {
+  margin-left: 24px;
+  border-left: 1px solid #d8dbe0 !important;
+
+  position: absolute;
+  right: 11px;
+  bottom: 4px;
+}
+.dataAddNewButton {
+  border: none;
+  border-radius: 16px;
+
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  width: 96px;
+  height: 28px;
+  background-color: #fd7b38;
+  position: absolute;
+  right: 81px;
+  bottom: 2px;
+
+  top: 1px;
+}
+
+.tableTile {
+  position: absolute;
+
+  left: 107px;
+  top: 5px;
+}
+
+.divider {
+  left: 55px;
+  bottom: -5px;
+}
+
+// .gridName,
+// .k-grid td:first-child {
+//   padding-left: 25px;
+
+//   width: 28%;
+// }
+
+.slider {
+  margin-left: 10px;
+}
+
+.timer {
+  width: 130px;
+}
+
+.welcomePageContainer {
+  height: 524px;
+}
+
+.data-list-popover {
+  > .tooltip-body {
+    background-color: #433e3a;
+    min-width: 487px;
+    font-size: 11px;
+    padding-bottom: 14px;
+    border-radius: 4px;
+
+    .heading {
+      color: $tooltip-h1;
+      padding: 10px 0;
+      margin: 0px 15px;
+      border-bottom: solid 1px $disable-text;
+
+      .closetextpopup {
+        color: $primary;
+        cursor: pointer;
+        border-color: $disable-text !important;
+        &:hover {
+          color: $edit-hover;
+        }
+      }
+    }
+
+    .border-bottom {
+      border-bottom: solid 1px $border-color;
+      border-color: #a0a3a1bf !important;
+      border-bottom-color: $border-color;
+      margin: 0px;
+    }
+
+    .k-grid {
+      background-color: #433e3a;
+      font-size: 11px;
+      min-height: 100px;
+      max-height: 257px;
+
+      .k-grid-header {
+        background-color: #433e3a;
+
+        .k-grid-header-wrap {
+          background: #433e3a;
+
+          th {
+            background: #433e3a;
+            box-shadow: 0 0 0 0;
+
+            .k-link {
+              color: $tooltip-grid-h;
+              font-weight: 500;
+              font-size: 11px;
+            }
+          }
+        }
+      }
+
+      .k-grid-content {
+        background: #433e3a;
+
+        &::-webkit-scrollbar-track {
+          background: #433e3a;
+        }
+      }
+
+      tr {
+        box-shadow: 0 0 0;
+        border: 0 none;
+
+        &:hover {
+          background: $tooltip-tr-h;
+
+          td {
+            box-shadow: 0 0 0;
+            background: $tooltip-tr-h;
+          }
+        }
+
+        td {
+          &:first-child {
+            color: $i-green;
+          }
+
+          background: #433e3a;
+          color: $tooltip-grid-h;
+          box-shadow: 0 0 0;
+          padding: 2px 10px 2px 12px;
+
+          .gray {
+            color: $label-disabled;
+          }
+
+          .success {
+            color: $helptext;
+          }
+
+          .fail {
+            color: $fail;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dataCreateButton1 {
+  width: 84px;
+  height: 30px;
+  background-color: rgba(228, 228, 222, 0.15);
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 16px;
+  color: #a2a19c;
+  border: none;
+  margin-right: 30px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #7c8292;
+  margin: 10px 10px;
+}
+
+.availableFields {
+  font-weight: 400;
+  font-size: 12px;
+  color: #7c8292;
+}
+
+.schedule {
+  margin-top: 10px;
+  margin-left: 8px;
+  // display: inline;
+  display: flex;
+}
+
+.regularIntervals1 {
+  .k-radio + .k-radio-label {
+    color: #1e2538;
+    margin-right: 15px;
+  }
+}
+
+.regularIntervals {
+  .k-radio + .k-radio-label {
+    color: #a2a19c;
+    margin-right: 15px;
+  }
+}
+
+.DateRangePickers,
+.TimeRangePickers {
+  font-weight: 400;
+  font-size: 12px;
+  color: #7c8292;
+}
+
+.DateRangePickers {
+  margin-right: 28px;
+}
+
+.runtypeDataRange {
+  .k-daterangepicker-wrap {
+    width: 250px;
+    // font-weight: 400;
+  }
+}
+
+// .runtypeDataRange {
+//   .k-daterangepicker-wrap
+//     span.k-textbox-container
+//     .k-dateinput
+//     .k-dateinput-wrap
+//     .k-input {
+//     font-size: 13px;
+//     font-weight: 400;
+//   }
+// }

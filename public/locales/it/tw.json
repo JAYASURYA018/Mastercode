@@ -1,0 +1,20 @@
+﻿{
+  "trs.label.WorkerName": "Worker Name",
+  "trs.label.WorkerSID": "Worker SID",
+  "trs.label.BlendingType": "Blending Type",
+  "trs.label.BlendingStatus": "Blending Status",
+  "trs.TwilioWorkers": "Agents",
+  "trs.label.CallType": "Type",
+  "trs.label.WorkFlowName": "Work Flow Name",
+  "trs.label.WorkFlowSID": "Work Flow SID",
+  "trs.label.Campaigns": "Campaigns",
+  "trs.label.Workers": "Workers",
+  "trs.label.LoginName": "Login Name",
+  "trs.label.FirstName": "First Name",
+  "trs.label.LastName": "Last Name",
+  "trs.confirm.deleteAgent": "Are you sure you want to delete agent?",
+  "trs.agent.Deleted.Failed.AlreadyLogin": "Agent is already logged in. Hence unable to delete",
+  "trs.Agent.Deleted.Failed.Error": "Error in deleting Agent",
+  "trs.Agent.Deleted.Successfully": "Agent deleted Successfully",
+  "trs.agent.nocampmapped": "Select Campaign(s) to map with Agent"
+}

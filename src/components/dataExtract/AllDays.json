@@ -1,0 +1,9 @@
+[
+  { "id": "1", "check": "Mon", "isSelected": false },
+  { "id": "2", "check": "Tue", "isSelected": false },
+  { "id": "3", "check": "Wed", "isSelected": false },
+  { "id": "4", "check": "Thu", "isSelected": false },
+  { "id": "5", "check": "Fri", "isSelected": false },
+  { "id": "6", "check": "Sat", "isSelected": false },
+  { "id": "7", "check": "Sun", "isSelected": false }
+]

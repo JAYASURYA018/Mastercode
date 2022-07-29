@@ -1,0 +1,314 @@
+.selectCampaginData {
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.selectCampaginDescription {
+  color: #7c8292;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.inputDescription {
+  height: 28px;
+  max-width: 426px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #1e2538;
+  border: 1px solid rgba(228, 228, 222, 0.5);
+  padding: 4px 5px;
+  border-radius: 3px;
+  margin-top: 1px;
+}
+
+.inputDescription:focus {
+  color: #1e2538;
+}
+
+.selectCampaginTimeZone {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7c8292;
+  margin-top: 31px;
+  position: absolute;
+  top: 175px;
+}
+
+.selectCampaginTimeZones {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7c8292;
+  margin-top: 10px;
+}
+
+.inputTimeZone {
+  height: 28px;
+  max-width: 426px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #a2a19c;
+  border: 1px solid rgba(228, 228, 222, 0.5);
+  padding: 4px 5px;
+  border-radius: 3px;
+  margin-top: 19px;
+}
+
+.Campaigns {
+  color: #1e2538;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.campaignsData1 {
+  border: 1px solid #f2f2f2;
+  /* width: 731px; */
+  margin-top: 10px;
+  width: 820px;
+  height: 288px;
+}
+
+.campaignsData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #f2f2f2;
+  height: 37px;
+  background-color: rgba(247, 246, 244, 0.5);
+  /* margin-left: 20px; */
+}
+
+.inputCheckbox {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.campaignsDataSelectAll {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.campaignsDataAvailable {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.campaignsDataDot {
+  color: #ff7b2b;
+  margin: 3px;
+}
+
+.campaignsDataNum {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.campaignsDataSelected {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 27px;
+}
+
+.campaignsDataSelectedDot {
+  color: #ff7b2b;
+  margin: 3px;
+}
+
+.campaignsDataNumZero {
+  color: #7c8292;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.campaignsDataSearchImg {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.campaignsList {
+  height: 232px;
+  /* width: 200px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+  /* margin-left: 0px; */
+}
+
+.campaignsDataInput {
+  width: 300px;
+  border-radius: 16px;
+  padding-left: 30px;
+  border: 1px solid #f2f2f2;
+  font-size: 12px;
+  font-weight: 400;
+  height: 26px;
+  margin-top: 4px;
+  margin-left: 27px;
+}
+
+.campaignsListBoth {
+  margin-bottom: 15px;
+}
+
+.campaignsListCheckbox {
+  /* font-weight: 400; */
+  color: #1e2538;
+  /* font-size: 13px; */
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+  margin-top: 6px;
+}
+
+.campaignsListData {
+  font-weight: 600;
+  color: #1e2538;
+  font-size: 13px;
+  /* margin-top: 25px; */
+  margin-left: 4px;
+  margin-bottom: 10px;
+}
+
+.campaignsButton {
+  text-align: center;
+}
+
+.button {
+  font-size: 12px;
+  /* color: #e4e4de; */
+  width: 70px;
+  height: 28px;
+  border-radius: 16px;
+  border: none;
+  margin-top: 10px;
+}
+
+.arrow {
+  color: #a2a19c;
+  font-size: 12px;
+  width: 11px;
+}
+
+.selectedArrow {
+  color: white;
+  background-color: #fd7b38;
+}
+
+.selectedArrow i {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.k-i-arrow-60-right-overlay,
+.k-i-arrow-60-right::before {
+  content: "\1F862";
+  color: #fd7b38;
+  font-size: 20px;
+}
+
+.k-i-arrow-60-left-overlay,
+.k-i-arrow-60-left::before {
+  content: "\1F860";
+  color: #fd7b38;
+  font-size: 20px;
+}
+
+.k-i-arrow-double-60-right-overlay,
+.k-i-arrow-double-60-right::before {
+  content: "\00BB";
+  color: #fd7b38;
+  padding-bottom: 8px;
+}
+
+.k-i-arrow-double-60-left-overlay,
+.k-i-arrow-double-60-left::before {
+  content: "\00AB";
+  color: #fd7b38;
+  padding-bottom: 8px;
+}
+
+.k-i-arrow-60-up::before {
+  content: "\1F861";
+  color: #fd7b38;
+  font-size: 20px;
+}
+
+.k-i-arrow-60-down::before {
+  content: "\1F863";
+  color: #fd7b38;
+  font-size: 20px;
+}
+
+.k-button {
+  width: 80px;
+  height: 28px;
+}
+
+.toolbar.k-icon-button,
+.k-button.k-button-icon {
+  width: calc(1.4285714286em + 50px);
+  height: calc(1.4285714286em + 15px);
+  padding: 8px;
+}
+
+.create-contactStrategy
+.k-dialog
+.k-window-content
+.example-config
+> div
+.container {
+  min-height: calc(100vh - 422px);
+}
+
+.k-listbox-toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dualApp {
+  margin-right: 24px;
+}
+
+.k-i-clock::before {
+  content: "\e006";
+  color: #fd7b38;
+}
+
+.k-timepicker .k-select {
+  background-color: #fff;
+  background-image: none;
+}
+
+.k-dropdown span.k-input {
+  font-weight: 400;
+}
+/*# sourceMappingURL=SelectCampaign.css.map */

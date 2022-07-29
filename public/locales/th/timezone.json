@@ -1,0 +1,22 @@
+﻿{		
+	"timezone.label.timezone":"เขตเวลา",
+	"timezone.label.MappedTimeZone":"เขตเวลาที่เลือก",
+	"timezone.tooltip.removeZone":"ปิดใช้งานโซน",
+	"timezone.dd.selected":"เลือกแล้ว",
+	"timezone.dd.notSelected":"ไม่ได้เลือก",
+	"timezone.popover.selectTimeZone":"เลือกโซนเวลา",
+	"timezone.popover.editTimeZone":"แก้ไขเขตเวลา",
+	"timezone.alert.saved":"เขตเวลาที่เพิ่มเรียบร้อยแล้ว",
+	"timezone.alert.modified":"เขตเวลาแก้ไขเรียบร้อยแล้ว",
+	"timezone.alert.deleted":"เขตเวลาถูกลบสำเร็จแล้ว",
+	"timezone.alert.delete":"ลบเขตเวลา",
+	"timezone.button.Save":"บันทึก",
+	"timezone.button.Cancel":"ยกเลิก",
+	"timezone.myGridTimeZone.timezone.heading":"เขตเวลาของแคมเปญ",
+	"timezone.myGridTimeZone.description.heading":"คำอธิบาย",
+	"timezone.myGridTimeZone.enable.heading":"เปิดใช้งาน",
+	"timezone.myGridTimeZone.enableInfo.heading":"การทำงานถูกปิดใช้งานสำหรับเขตเวลาที่จับคู่กับแคมเปญ",
+	"timezone.alt.timezone-logo":"โลโก้โซนเวลา",
+	"timezone.pageheader":"การกำหนดค่าระบบ"
+
+}

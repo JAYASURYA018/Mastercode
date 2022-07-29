@@ -1,0 +1,21 @@
+﻿@import '_variables.scss';
+.contact-strategy {
+    .k-toolbar{ 
+        .search-input {
+        input {
+            width:81%;
+            /*width: calc(100% - 62px);*/
+        }
+
+        a {
+            color: $helptext;
+        }
+    }
+    }
+    td {
+        span.icon-dropdown-chevron {
+            vertical-align: bottom;
+            color: $label-disabled;
+        }
+    }
+}

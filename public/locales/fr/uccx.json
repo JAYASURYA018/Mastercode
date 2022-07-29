@@ -1,0 +1,14 @@
+{
+  "uccx.pageHeader.header": "Détails du serveur UCCX",
+  "uccx.pageHeader.description": "",
+  "uccx.primary.name": "Principal",
+  "uccx.secondary.name": "Secondaire",
+  "uccx.param.save.success": "Justificatifs d'identité de serveur UCCX correctement enregistrés.",
+  "uccx.url.label": "URL",
+  "uccx.api.userid.label": "Nom d'utilisateur",
+  "uccx.api.userpsw.label": "Mot de passe",
+  "uccx.api.uccxcredentialsform.header": "Justificatifs d'identité de l'API Web UCCX",
+  "uccx.api.finessecredentialsform.header": "Justificatifs d'identité de l'API Web Finesse",
+  "uccx.cisco.api.server.required": "Le champ Nom de l'URL ne peut pas être vide.",
+  "uccx.api.url.title": "Renseigner ce champ"
+}

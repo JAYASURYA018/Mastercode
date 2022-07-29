@@ -1,0 +1,206 @@
+.dataExtract {
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dataImg {
+  margin-left: 10px;
+  margin-top: -3px;
+}
+
+.dataText {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1e2538;
+  margin-left: 10px;
+  position: absolute;
+  top: 8px;
+}
+
+.exit {
+  color: #fd7b38;
+  font-size: 12px;
+  border-radius: 16px;
+  border: 1px solid #e3e3e0;
+  font-weight: 600;
+  margin-right: 30px;
+  width: 80px;
+  height: 28px;
+  background-color: #fff;
+  cursor: pointer;
+  float: right;
+}
+
+.dataExtractWrapper {
+  background-color: #e6e4f0;
+  padding: 4px 5px 6px;
+  margin-left: 54px;
+}
+
+.dataExtractWrapper1 {
+  height: calc(100vh - 112px);
+  background-color: white;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: _;
+      -ms-flex-pack: _;
+          justify-content: _;
+}
+
+.dataExtractWrapper2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: _;
+          flex-direction: _;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dataExtractWrapper .dataExtractBody {
+  width: 400px;
+  margin: auto;
+}
+
+.dataExtractWrapperTextImg {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.divider {
+  float: right;
+  margin: 10px 5px;
+}
+
+.help {
+  float: right;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3cc339;
+  margin: 10px 29px 10px 2px;
+}
+
+.welcomeDataExtract {
+  color: #3cc339;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.dataExtractdesp {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #1e2538;
+}
+
+.dataExtractTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #1e2538;
+}
+
+.addDataExtract {
+  margin-top: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: _;
+      -ms-flex-pack: _;
+          justify-content: _;
+}
+
+.addDataExtractButton {
+  padding: 5px;
+  width: 165px;
+  background: #ffffff;
+  border: 1px solid #ff7b2b;
+  color: #fd7b38;
+  font-size: 12px;
+  border-radius: 16px;
+  position: absolute;
+  left: 29%;
+  cursor: pointer;
+}
+
+.watchVideo {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  /* text-align: right; */
+  text-align: center;
+  margin-top: 50px;
+  color: #3cc339;
+}
+
+.dataExtractDivider {
+  margin-left: "10px";
+}
+
+.readArticle {
+  margin-right: "5px";
+  margin-left: "10px";
+}
+
+.dataText {
+  font-size: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+.st-data .k-step-label {
+  display: inline-table;
+}
+
+.stepper-wrapper .k-step-label {
+  color: #7c8292;
+}
+
+.stepper-wrapper .k-step-done .k-step-indicator-text {
+  color: white;
+  background-color: #7ed321;
+}
+
+.stepper-wrapper .k-step-done .k-step-label {
+  font-weight: bold;
+  color: #1e2538;
+}
+
+.stepper-wrapper .k-step-current .k-step-label {
+  font-weight: bold;
+  color: #1e2538;
+}
+/*# sourceMappingURL=DataExtract.css.map */

@@ -1,0 +1,14 @@
+{
+  "uccx.pageHeader.header": "UCCX サーバ詳細",
+  "uccx.pageHeader.description": "",
+  "uccx.primary.name": "プライマリ",
+  "uccx.secondary.name": "セカンダリ",
+  "uccx.param.save.success": "UCCX サーバーの資格情報が正常に保存されました。",
+  "uccx.url.label": "URL",
+  "uccx.api.userid.label": "ユーザー名",
+  "uccx.api.userpsw.label": "パスワード",
+  "uccx.api.uccxcredentialsform.header": "UCCX ウェブ API 資格情報",
+  "uccx.api.finessecredentialsform.header": "Finesse ウェブ API 資格情報",
+  "uccx.cisco.api.server.required": "URL 名フィールドは空のままでは無効です。",
+  "uccx.api.url.title": "このフィールドを入力してください"
+}

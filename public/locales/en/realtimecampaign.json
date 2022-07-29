@@ -1,0 +1,14 @@
+﻿{
+  "realtimecampaign.pageHeader.header": "Campaign Monitoring",
+  "realtimecampaign.error.get.realtime.report": "Failed to get the Campaign Monitoring Model",
+  "realtimecampaign.select.onecampaign": "Please Select atleast one Campaign",
+  "realtimecampaign.time": "Time",
+  "realtimecampaign.campaignid": "Campaign ID",
+  "realtimecampaign.uploaded": "Uploaded",
+  "realtimecampaign.delivered": "Delivered",
+  "realtimecampaign.scheduled": "Processed",
+  "realtimecampaign.available.currenttime": "Records Available till Current Time",
+  "realtimecampaign.report.onlytoday": "Report only for Today.It Should not Exceeds the Current Day",
+  "realtimecampaign.norecord.early": "No Records Available in the Early Time",
+  "realtimecampaign.norecord.timeslot": "No Record Available in this Time Slot"
+}

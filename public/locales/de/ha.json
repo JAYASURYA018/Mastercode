@@ -1,0 +1,12 @@
+{
+  "ha.pageheader": "Systemkonfiguration",
+  "ha.haicon": "HA-Statussymbol",
+  "hastatus.pagetitle": "Hochverfügbarkeitsstatus Core-Server",
+  "hastatus.primaryservertitle": "PRIMÄRER SERVER",
+  "hastatus.secondaryservertitle": "SEKUNDÄRER SERVER",
+  "hastatus.ipaddresstitle": "IP-Adresse",
+  "hastatus.statusup": "Status - HOCHFAHREN",
+  "hastatus.statusstandby": "Status - STANDBY",
+  "hastatus.statusdown": "Status - RUNTERFAHREN",
+  "hastatus.refreshmessage": "HA-STATUS erfolgreich aktualisiert"
+}

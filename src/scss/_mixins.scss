@@ -1,0 +1,151 @@
+﻿@import "variables";
+@mixin for-phone-only {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+
+@mixin for-tablet-portrait-up {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin for-tablet-landscape-up {
+    @media (min-width: 900px) {
+        @content;
+    }
+}
+
+@mixin for-desktop-up {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}
+@mixin for-desktop {
+    @media (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin for-1280 {
+    @media (max-width: 1198px) and (min-width: 1280px) {
+        @content;
+    }
+}
+@mixin for-min-1367 {
+    @media (min-width: 1367px) {
+        @content;
+    }
+}
+@mixin for-max-1366 {
+    @media (max-width: 1366px) {
+        @content;
+    }
+}
+@mixin for-1366 {
+    @media (max-width: 1399px) and (min-width: 1366px) {
+        @content;
+    }
+}
+@mixin for-1440 {
+    @media (max-width: 1440px) and (min-width: 1401px) {
+        @content;
+    }
+}
+@mixin for-1440-up {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}
+@mixin for-1400 {
+    @media (max-width: 1440px) and (min-width: 1400px) {
+        @content;
+    }
+}
+@mixin for-1440-dn {
+    @media (max-width: 1400px) {
+        @content;
+    }
+}
+@mixin for-1600 {
+    @media (max-width: 1600px) and (min-width: 1441px) {
+        @content;
+    }
+}
+@mixin for-1680 {
+    @media (max-width: 1680px) {
+        @content;
+    }
+}
+@mixin for-1920 {
+    @media (min-width: 1920px) and (max-width: 2000px) {
+        @content;
+    }
+}
+@mixin for-1024 {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+@mixin for-big-desktop-up {
+    @media (min-width: 1800px) {
+        @content;
+    }
+}
+
+@mixin for-md-destop {
+    @media(min-width:1024px) and (max-width: 1320px) {
+        @content;
+    }
+}
+@mixin for-1152 {
+    @media (max-width: 1152px) {
+        @content;
+    }
+}
+@mixin custom-media($property) {
+    @media($property) and ($property) {
+        @content;
+    }
+}
+@mixin col-width($property) {
+    -webkit-flex: ($property);
+    flex: ($property);
+}
+@mixin btn-box-shadow($property) {
+    box-shadow: inset 0 0 0 1.5px ($property);
+}
+@mixin border($property){
+    border:solid 1px
+}
+.box-shadow-inset {
+    box-shadow:inset 0px -1px 0px #F4F4F4;
+}
+.btn-hover{
+    border-radius:50%;
+
+}
+
+
+$max: 100;
+$offset: 1;
+$unit: 'px'; // Feel free to change the unit.
+@mixin list-loop($className, $styleName) {
+    $i: 0;
+
+    @while $i <= $max {
+        #{$className + $i} {
+            #{$styleName}: #{$i + $unit};
+        }
+
+        $i: $i + $offset;
+    }
+}
+
+.bg-transition {
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}

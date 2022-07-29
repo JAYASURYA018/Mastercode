@@ -1,0 +1,133 @@
+[        
+    {           
+    "id": 1,
+    "label":"call outcome",
+    "name": "Call Outcome ",
+    "isSelected": false
+    },
+    
+    {
+    "id": 2,
+    "name": "Campaign Summary ",
+"isSelected": false    
+},
+    
+    {
+    "id": 3,
+    "name": "Do Not Call (DNC) Blocked ",
+"isSelected": false    
+},
+    
+    {
+    "id": 4,
+    "name": "Contact Attempt",
+"isSelected": false    
+},
+   
+    {
+    "id": 5,
+    "name": "Abandoned Percentage ",
+"isSelected": false    
+},
+    
+    {
+    "id": 6,
+    "name": "Agent Disposition (Campaign wise)",
+"isSelected": false    
+},
+    
+    {
+    "id": 7,
+    "name": "Category ",
+"isSelected": false    
+},
+    
+    {
+    "id": 8,
+    "name": "Category Target",
+"isSelected": false    
+},
+    
+    {
+    "id": 9,
+    "name": "Contact Attempt Bucket",
+"isSelected": false    
+},
+    {
+    "id": 10,
+    "name": "Agent Attempt",
+"isSelected": false    
+},
+    
+    {
+    "id": 11,
+    "name": "Agent Outcome",
+"isSelected": false    
+},
+
+    
+{           
+    "id": 12,
+    "name": "Callback",
+"isSelected": false    
+},
+    
+    {
+    "id": 13,
+    "name": "Global List Status",
+"isSelected": false    
+},
+    
+    {
+    "id": 14,
+    "name": "Right Party Contact (RPC)",
+"isSelected": false    
+},
+    
+    {
+    "id": 15,
+    "name": "Agent Login Logout",
+"isSelected": false    
+},
+   
+    {
+    "id": 16,
+    "name": "Callback Trace",
+"isSelected": false    
+},
+    
+    {
+    "id": 17,
+    "name": "Agent State ",
+"isSelected": false    
+},
+    
+    {
+    "id": 18,
+    "name": "Email Outcome",
+"isSelected": false    
+},
+    
+    {
+    "id": 19,
+    "name": "Agent Productivity Report",
+"isSelected": false    
+},
+    
+    {
+    "id": 20,
+    "name": "Compliance Detailed Report",
+"isSelected": false    
+},
+    {
+    "id": 21,
+    "name": "Compliance Summary Report",
+"isSelected": false   
+}
+
+
+]
+
+
+
+

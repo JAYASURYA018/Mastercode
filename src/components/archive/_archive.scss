@@ -1,0 +1,1258 @@
+// .archive {
+//   .k-toolbar {
+//     .search-input-archive {
+//       input {
+//         width: 250px;
+//       }
+
+//       .icon-tool-search {
+//         position: relative;
+//         left: 30px;
+//         top: 6px;
+//       }
+
+//       a {
+//         color: $helptext;
+//       }
+//     }
+//   }
+// }
+
+.settingsContainer {
+  margin-left: 8px;
+  margin-top: 29px;
+
+  .timeRangepicker {
+    border: none;
+    display: inline-block;
+  }
+
+  .k-i-calendar::before {
+    content: "\e006";
+    color: #fd7b38;
+  }
+
+  .dateslider {
+    margin-left: 12px;
+    margin-top: -4px;
+  }
+
+  .buttonsradio {
+    display: flex;
+    column-gap: 2em;
+  }
+
+  .radiobuttonafter {
+    .k-radio+.k-radio-label {
+      color: #1e2538;
+    }
+  }
+
+  .thirdbefore {
+    .k-radio+.k-radio-label {
+      color: #a2a19c;
+    }
+  }
+
+  .archiveInput {
+    width: 406px;
+    padding-left: 8px;
+    opacity: 0.6;
+  }
+
+  .normalColor {
+    font-size: 45px;
+  }
+
+  .k-dropdown {
+    width: 14%;
+  }
+
+  .twoway {
+    color: red;
+  }
+
+  .normalColor {
+    .k-radio+.k-radio-label {
+      color: red;
+      margin-left: 7px;
+    }
+  }
+
+  .onChangeColor {
+    color: #1e2538;
+  }
+}
+
+.SaveButtonSettings {
+  height: 28px;
+  width: 80px;
+  background-color: #fd7b38;
+  color: #ffffff;
+  border-radius: 16px;
+  font-size: 12px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.exitButtonSettings {
+  height: 28px;
+  width: 80px;
+  border: border-color 1px solid #f2f2f2;
+  color: #fd7b38;
+  border-radius: 16px;
+  font-size: 12px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.radio-button {
+  color: #a2a19c;
+  margin-top: -22px;
+  margin-left: 46px;
+}
+
+.radiobutton-lable {
+  color: #1e2538;
+  margin-top: -22px;
+  margin-left: 46px;
+}
+
+.innerContainer {
+  .k-tabstrip-top .k-tabstrip-items {
+    justify-content: center;
+    background-color: #fff;
+
+    padding-left: 11px;
+    border-right-width: 0px;
+    padding-right: 11px;
+  }
+
+  .k-grid td:first-child {
+    padding-left: 11px;
+    // height: 282px;
+    width: 28%;
+  }
+
+  .heading {
+    display: inline-table;
+    margin-right: 10px;
+  }
+
+  .k-grid div.k-grid-header {
+    border-width: 0;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .k-grid {
+    font-size: 13px;
+    border-width: 0px;
+    padding-right: 0px;
+    border-radius: 4px;
+    // height: 282px;
+  }
+
+  .page-heading {
+    height: 48px;
+  }
+
+  .k-i-plus::before,
+  .k-plus::before {
+    content: "\e005";
+    color: #fd7b38;
+  }
+
+  .k-i-minus::before,
+  .k-minus::before {
+    content: "\e006";
+    color: #fd7b38;
+  }
+
+  .k-tabstrip>.k-content {
+    border-color: rgba(0, 0, 0, 0.08);
+    color: #1e2538;
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .tool-bar {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+  }
+
+  .search-input {
+    input {
+      width: 250px;
+    }
+
+    .icon-tool-search {
+      position: relative;
+      left: 30px;
+      top: 6px;
+    }
+  }
+
+  .grid-icon {
+    color: #7c8292;
+  }
+
+  .gridtoolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .search-filter {
+    border-radius: 20px;
+    padding-left: 30px;
+    height: 28px;
+    margin-top: 3px;
+  }
+
+  .archiveImage {
+    padding-left: 24px;
+    padding-right: 11px;
+  }
+
+  .iconsarchive {
+    position: relative;
+    top: 7px;
+  }
+
+  .gridIcon {
+    color: #a2a19c;
+  }
+
+  .divider {
+    height: 20px;
+    margin-top: 7px;
+  }
+
+  .search-tool {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 8px;
+    color: #a2a19c;
+    z-index: 99;
+  }
+
+  .help-text {
+    color: #3cc339;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+}
+
+.maintablewidth {
+  .k-tabstrip-top .k-tabstrip-items {
+    justify-content: left;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .k-tabstrip>.k-content {
+    border-color: rgba(0, 0, 0, 0.08);
+    border: none;
+    color: #1e2538;
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .help-text-archive {
+    color: #3cc339;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+
+  .gridIcon {
+    color: #a2a19c;
+  }
+
+  .searchbarToolbar {
+    border-radius: 20px;
+    padding-left: 30px;
+    height: 28px;
+    margin-top: 3px;
+    border: 2px solid #f2f2f2;
+    margin-top: 5px;
+
+    &:focus {
+      background: rgb(255, 222, 205) !important;
+    }
+  }
+
+  .searchbar {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 6px;
+  }
+
+  .searchHeader {
+    position: absolute;
+    margin-left: 61%;
+  }
+
+  .deleteIcon {
+    margin-left: 15px;
+    color: #a2a19c;
+  }
+
+  .tableGroupSearchInput {
+    width: 250px;
+    height: 28px;
+    border-radius: 16px;
+    margin-top: 8px;
+    margin-left: 29px;
+  }
+
+  .tableGroupSearchIcon {
+    position: absolute;
+    margin-top: -1.7%;
+    margin-left: 14.6%;
+  }
+
+  .initialDividerIcon {
+    margin-left: 15px;
+    margin-top: 5px;
+    position: absolute;
+  }
+
+  .DividerImage {
+    margin-left: 471px;
+
+    margin-top: -52px;
+  }
+
+  .helpBtn {
+    margin-top: -24px;
+    position: absolute;
+    margin-left: 88%;
+  }
+}
+
+.outercontainer {
+  padding: 3px 5px 0px 5px;
+
+  .k-tabstrip-top {
+    height: 710px;
+    // height: calc(100vh-100px);
+  }
+
+  .k-tabstrip-top .k-tabstrip-items {
+    padding-left: 18px;
+    justify-content: center;
+    background: white;
+  }
+
+  .maintablewidth {
+    .k-tabstrip-top .k-tabstrip-items {
+      justify-content: left;
+      background-color: #fff;
+      width: 100%;
+    }
+
+    .k-tabstrip-top {
+      height: 640px;
+    }
+
+    .k-tabstrip>.k-content {
+      border-color: rgba(0, 0, 0, 0.08);
+      border: none;
+      color: #1e2538;
+      background-color: #fff;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      overflow-y: hidden;
+    }
+
+    .gridHeight {
+      overflow-y: hidden;
+    }
+
+    .exitButton {
+      .k-button {
+        width: 80px;
+        height: 28px;
+        margin-right: 27px;
+      }
+    }
+
+    .k-grid {
+      font-size: 13px;
+      border-width: 0px;
+      padding-right: 0px;
+      border-radius: 4px;
+    }
+
+    .k-grid .grid-pagination>.col-md-8 {
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+
+    .editicon {
+      color: #a2a19c;
+    }
+
+    .deleteIcon {
+      margin-left: 15px;
+      color: #a2a19c;
+    }
+
+    .inputContainer {
+      position: absolute;
+      margin-top: -2.5%;
+      margin-left: 12%;
+    }
+
+    .initialDividerIcon {
+      margin-left: 15px;
+      margin-top: 5px;
+      position: absolute;
+    }
+
+    .DividerImage {
+      margin-left: 471px;
+
+      margin-top: -52px;
+    }
+
+    .helpBtn {
+      margin-top: -24px;
+      position: absolute;
+    }
+  }
+
+  .PurgeFileConfiguration {
+    .k-tabstrip-top .k-tabstrip-items {
+      justify-content: left;
+      background-color: #fff;
+    }
+
+    .k-content {
+      border: none;
+    }
+
+    .tabletabs {
+      width: 100%;
+      height: 645px;
+    }
+
+    .Tileviewupdated {
+      margin-left: 35px;
+    }
+
+    .headerright {
+      position: absolute !important;
+
+      left: 61%;
+    }
+
+    .k-grid .grid-pagination {
+      margin: 0px;
+      // z-index: 99;
+
+      // font-size: 12px;
+    }
+
+    .lorem_text {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 37%;
+      text-align: center;
+      color: rgba(30, 37, 56, 1);
+      font-weight: 600;
+    }
+
+    .mauris_text {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 37%;
+      text-align: center;
+      color: rgba(30, 37, 56, 1);
+      font-weight: 400;
+    }
+
+    .welcome_addbtn {
+      margin-top: 12px;
+
+      background: #ffffff;
+
+      width: 205px;
+
+      height: 27px;
+
+      border-radius: 16px;
+
+      border: 2px solid #fd7b38;
+
+      box-shadow: 0px 0px 0px #e3e3e0;
+
+      color: #fd7b38;
+
+      font-size: 12px;
+
+      font-weight: 600;
+
+      line-height: 5.32px;
+    }
+
+    .welcome_addbtn:hover {
+      background: linear-gradient(0deg,
+          rgba(253, 123, 56, 0.12),
+          rgba(253, 123, 56, 0.12)); // $white  !important;
+    }
+
+    .welcomes_addbtn {
+      margin-top: 12px;
+
+      background: #ffffff;
+
+      width: 205px;
+
+      height: 27px;
+
+      border-radius: 16px;
+
+      border: 2px solid #fd7b38;
+
+      box-shadow: 0px 0px 0px #e3e3e0;
+
+      color: #fd7b38;
+
+      font-size: 12px;
+
+      font-weight: 600;
+
+      line-height: 5.32px;
+    }
+
+    .welcomes_addbtn:hover {
+      background: linear-gradient(0deg,
+          rgba(253, 123, 56, 0.12),
+          rgba(253, 123, 56, 0.12)); // $white  !important;
+    }
+
+    .help-btn {
+      margin-top: -28px;
+
+      position: absolute;
+
+      padding: 2px 8px;
+
+      border-radius: 2px;
+
+      color: #3cc339;
+
+      font-size: 13px;
+
+      margin-left: 0px;
+    }
+
+    .Cancelbtn {
+      margin-top: 6px;
+
+      background: #47423e;
+
+      width: 96px;
+
+      height: 28px;
+
+      border-radius: 16px;
+
+      font-family: sans-serif;
+
+      margin-left: 60px;
+
+      color: #fd7b38 !important;
+
+      border: 2px solid #fd7b38;
+
+      box-shadow: 0px 0px 0px #e3e3e0;
+
+      color: #ffff;
+
+      font-size: 14px;
+
+      font-weight: 600;
+
+      line-height: 5.32px;
+    }
+
+    .Createbtn {
+      margin-top: 6px;
+
+      background: #47423e;
+
+      width: 96px;
+
+      height: 28px;
+
+      border-radius: 16px;
+
+      font-family: sans-serif;
+
+      margin-left: 20px !important;
+
+      color: #fd7b38 !important;
+
+      border: 2px solid #fd7b38;
+
+      box-shadow: 0px 0px 0px #e3e3e0;
+
+      color: #ffff;
+
+      font-size: 14px;
+
+      font-weight: 600;
+
+      line-height: 5.32px;
+    }
+
+    .disablebtn {
+      color: #a2a19c;
+
+      margin-top: 6px;
+
+      background: #5b5753;
+
+      width: 96px;
+
+      height: 28px;
+
+      border-radius: 16px;
+
+      font-family: sans-serif;
+
+      margin-left: 20px;
+
+      border: 2px solid #5b5753;
+
+      font-size: 14px;
+
+      font-weight: 600;
+
+      line-height: 5.32px;
+    }
+
+    .watchbox {
+      margin-top: 37px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .watchvideo {
+      color: rgba(60, 195, 57, 1);
+    }
+
+    .divid {
+      background-color: rgba(0, 0, 0, 0.0001);
+      height: 20px;
+      width: 8px;
+      margin: 0px 4px 0px 12px;
+      box-shadow: inset 1px 0px 0px #e5e5e4;
+    }
+
+    .InputPop {
+      background: #433e3a;
+
+      color: rgba(255, 255, 255, 0.85);
+
+      box-shadow: inset 0px 0px 0px 1px #433e3a;
+
+      border: none;
+
+      margin-left: 14px;
+
+      // background: rgb(255, 222, 205) !important;
+
+      border-radius: 3px;
+
+      font-size: 13px;
+
+      font-weight: 700;
+    }
+
+    .InputPop:hover {
+      background-color: #433e3a;
+
+      box-shadow: inset 0px 0px 0px 1px #433e3a;
+
+      border: none;
+
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .InputPop:focus {
+      color: black !important;
+
+      border-radius: 3px;
+
+      background: linear-gradient(0deg,
+          rgba(253, 123, 56, 0.25),
+          rgba(253, 123, 56, 0.25));
+
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .read_artical {
+      color: rgba(60, 195, 57, 1);
+    }
+
+    .welcomeDataExtract {
+      padding-top: 100px !important;
+    }
+
+    .addDataExtractButton.k-button {
+      margin-top: -270px !important;
+      height: 30px;
+      margin-left: -35px !important;
+    }
+
+    .maintabs.k-tabstrip-top .k-tabstrip-items {
+      align-self: center;
+    }
+
+    .Settings {
+      margin-left: 45px;
+      margin-top: 30px;
+    }
+
+    .RadioButton1 {
+      margin-left: 45px;
+      margin-top: 10px;
+    }
+
+    .Access,
+    .Secret,
+    .Region,
+    .KMS,
+    .Encryption,
+    .Encrypt {
+      margin-top: 20px;
+      margin-left: 45px;
+    }
+
+    .PurgeFolder {
+      margin-top: 35px;
+      margin-left: 45px;
+    }
+
+    .AEPurgeInput {
+      margin-top: 6px;
+
+      margin-left: 45px;
+
+      font-family: arial !important;
+
+      font-weight: normal !important;
+
+      width: 70%;
+
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .AEPurgeInput:hover {
+      margin-top: 6px;
+
+      margin-left: 45px;
+
+      font-family: arial !important;
+
+      font-weight: normal !important;
+
+      width: 70%;
+
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .AEPurgeInput:focus {
+      margin-top: 6px;
+
+      margin-left: 45px;
+
+      font-family: arial !important;
+
+      font-weight: normal !important;
+
+      width: 70%;
+
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .Access1,
+    .Secret1,
+    .Region1,
+    .KMS1,
+    .Encryption1,
+    .Encrypt1 {
+      margin-top: 6px;
+      margin-left: 45px;
+      font-family: arial !important;
+      font-weight: normal !important;
+      width: 70%;
+    }
+
+    .Access1[type="text"],
+    .Secret1[type="text"],
+    .Region1[type="text"],
+    .KMS1[type="text"],
+    .Encryption1[type="text"],
+    .Encrypt1 [type="text"] {
+      font-family: Arial sans-serif;
+
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .Access1:hover {
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .Access1:focus {
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .HostMain {
+      padding-left: 45px;
+      margin-top: 20px;
+    }
+
+    .User,
+    .Password {
+      margin-top: 20px;
+    }
+
+    .Host1,
+    .User1,
+    .Password1 {
+      margin-top: 6px;
+      width: 75%;
+    }
+
+    .Checkbox {
+      margin-left: 35px;
+    }
+
+    .National {
+      margin-top: 25px;
+      margin-left: 45px;
+    }
+
+    .NationalInput {
+      margin-left: 20px;
+    }
+
+    .Retention {
+      margin-left: 46px;
+      margin-top: 25px;
+    }
+
+    .RetentionInput {
+      margin-left: 55px;
+    }
+
+    .Purge {
+      margin-top: 15px;
+      margin-left: 47px;
+    }
+
+    .PurgeInput {
+      margin-left: 68px;
+    }
+
+    .CheckBox {
+      margin-left: -274px;
+    }
+
+    .tool {
+      color: #a2a19c;
+    }
+
+    .dialogpop .k-dialog .k-window-content .heading .k-button.k-primary {
+      margin-right: 16px;
+    }
+
+    .SettingsHeader {
+      font-family: sans-serif;
+      font-size: 13px;
+
+      font-weight: 600 !important;
+      margin-left: 0px;
+    }
+
+    .k-dialog span {
+      cursor: pointer;
+    }
+
+    .deleteActionDialog .k-dialog {
+      height: 307px !important;
+    }
+
+    .grid-icon {
+      color: #a2a19c;
+    }
+
+    .SettingsType {
+      font-family: sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      text-align: left;
+    }
+
+
+    .icon-tool-edit {
+      margin-left: -15px;
+    }
+
+    .gridupdated {
+      margin-left: 100x;
+    }
+
+    .tileview {
+      margin-left: -30px;
+    }
+
+    .deleteicon {
+      margin-left: 10px;
+    }
+
+    .Actions {
+
+      margin-left: 500px;
+    }
+
+    .inputtable {
+      position: absolute;
+
+      width: 250px !important;
+
+      height: 28px !important;
+
+      border-radius: 16px !important;
+
+      margin-top: 0px;
+
+      margin-left: 160px;
+
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+
+      margin-left: 4%;
+    }
+
+    .searchicontable {
+      position: absolute;
+      margin-top: 10px;
+      margin-left: -243px;
+    }
+
+    .list-icon {
+      position: absolute !important;
+      margin-left: 40px !important;
+
+      margin-top: 9px !important;
+      cursor: pointer;
+    }
+
+    .grid {
+      margin-top: 10px;
+    }
+
+    .grid-icon {
+      margin-left: 78 px !important;
+      position: absolute;
+      margin-top: 9px !important;
+      cursor: pointer;
+    }
+
+    .SearchBar {
+      width: 250px !important;
+
+      height: 28px !important;
+
+      border-radius: 16px !important;
+
+      margin-top: 0px;
+
+      margin-left: 160px;
+
+      &:focus {
+        background: rgb(255, 222, 205) !important;
+      }
+    }
+
+    .SearchBar.k-textbox {
+      padding: 11px 32px;
+    }
+
+    .tool-search {
+      margin-top: 11px;
+      position: absolute;
+      margin-left: 30%;
+    }
+
+    .k-buttonk-primaryAdd-new {
+      margin-top: 6px;
+      background: #fd7b38;
+      width: 96px;
+      height: 28px;
+      border-radius: 16px;
+      margin-left: 25px;
+      border: 2px solid #fd7b38;
+      box-shadow: 0px 0px 0px #e3e3e0;
+      color: #ffff;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 5.32px;
+    }
+
+    .help-btn1 {
+      margin-top: -28px;
+      position: absolute;
+      padding: 2px 8px;
+      border-radius: 2px;
+      color: #3cc339;
+      font-size: 13px;
+      margin-left: 0px;
+    }
+
+    .list-grid-container {
+      margin-left: 85px;
+
+      margin-top: 9px;
+    }
+
+    .grid-icon {
+      margin-left: 50px;
+    }
+
+    .firstdeviderimg {
+      margin-left: 130px;
+
+      margin-top: 11px;
+
+      position: absolute;
+    }
+
+    .seconddeviderimg {
+      margin-left: 560px;
+      margin-top: -55px;
+    }
+
+    .mainTabstrip.k-tabstrip-top>.k-content {
+      border-top: 2px solid #eaeae5;
+
+      margin-left: -12px;
+
+      margin-right: -16px;
+    }
+
+    .k-tabstrip>.k-content.k-state-active {
+      display: block;
+      border: 1px solid #eaeae5;
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+      margin-left: -12px;
+      margin-right: -12px;
+    }
+
+    .k-tabstrip-top {
+      margin-left: -15px;
+      margin-right: -25px;
+    }
+
+    .mainTabstrip.k-tabstrip-top>.k-tabstrip-items {
+      border-bottom: none;
+    }
+
+    .slidectrl {
+      margin-left: 162px;
+      margin-top: -20px;
+    }
+
+    .FolderDescription {
+      font-family: sans-serif;
+      font-size: 13px;
+      padding-left: 11px;
+      font-weight: 600 !important;
+
+      text-align: left;
+    }
+
+    .subFolderCheckboxLabel {
+      margin-left: 46px;
+      margin-top: 20px;
+    }
+
+    .FolderType {
+      font-family: sans-serif;
+      font-size: 13px;
+      padding-left: 1001px;
+      margin-left: 400px;
+      font-weight: 600 !important;
+
+      text-align: left;
+    }
+
+    .LocalPath {
+      margin-left: 100px;
+    }
+
+    .SubFolderCheckbox {
+      margin-left: 37px;
+      margin-top: 15px;
+    }
+
+    .s3SubFolderCheckbox {
+      margin-left: 44px;
+      margin-top: 15px;
+    }
+
+    .S3SubFolderCheckbox {
+      margin-left: 40px;
+    }
+
+    .ArchuveS3Checkbox {
+      margin-left: 20px;
+    }
+
+    .Retention {
+      margin-left: 46px;
+      margin-top: 25px;
+    }
+
+    .RetentionInput {
+      margin-left: 55px;
+    }
+
+    .Purge {
+      margin-top: 15px;
+      margin-left: 47px;
+    }
+
+    .PurgeInput {
+      margin-left: 68px;
+    }
+
+    .shareDriveCheckbox {
+      margin-left: 20px;
+    }
+
+    .SubFolder {
+      margin-left: 40px;
+    }
+
+    .S3Settings {
+      margin-left: 45px;
+
+      margin-top: 20px;
+    }
+
+    .ArchiveS3Settings {
+      margin-left: 46px;
+
+      margin-top: 20px;
+    }
+
+    .ArchiveS3 {
+      margin-left: 20px;
+    }
+
+    .S3Path {
+      margin-left: 46px;
+
+      margin-top: 20px;
+    }
+
+    .S3SettingsDrop {
+      margin-left: 46px;
+
+      width: 420px;
+
+      margin-top: 8px;
+    }
+
+    .purgefilepage {
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      flex-direction: column;
+
+      height: 70vh;
+    }
+
+    .S3PathInput {
+      margin-left: 45px;
+
+      margin-top: 8px;
+
+      width: 422px;
+    }
+
+    .contact-strategy {
+
+
+      .k-toolbar {
+
+        .search-input {
+          position: absolute !important;
+
+          left: 61%;
+
+          input {
+
+            width: 250px;
+
+          }
+
+          .icon-tool-search {
+
+            position: relative;
+
+            left: 30px;
+
+            top: 6px;
+
+          }
+
+        }
+
+      }
+
+      .dividerHelp {
+        position: absolute !important;
+
+        margin-top: 35px;
+
+        text-decoration: none;
+
+        left: 61%;
+      }
+    }
+  }
+}

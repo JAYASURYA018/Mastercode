@@ -1,0 +1,76 @@
+.k-toolbar .row .search-input input {
+  width: 45%;
+  border-radius: 18px;
+  padding-left: 35px;
+  height: 28px;
+  position: relative;
+  /* right: -25px; */
+  left: 190px;
+}
+
+.search-input {
+  position: relative;
+  /* top: -16px; */
+  bottom: 5px;
+}
+
+.side-icons {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.search-icon .icon-tool-search {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.k-toolbar .row .search-input span.border-left {
+  margin-left: 24px;
+  border-left: 1px solid #d8dbe0 !important;
+  /* padding-bottom: 48px; */
+  position: absolute;
+  right: 11px;
+  bottom: 4px;
+}
+
+.dataAddNewButton {
+  border: none;
+  border-radius: 16px;
+  /* margin-right: 5px; */
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  width: 96px;
+  height: 28px;
+  background-color: #fd7b38;
+  position: absolute;
+  right: 81px;
+  bottom: 2px;
+  top: 1px;
+}
+
+.tableTile {
+  position: absolute;
+  /* right: 241px; */
+  left: 107px;
+  top: 5px;
+}
+
+.divider {
+  left: 55px;
+  bottom: -5px;
+}
+
+.gridName,
+.k-grid td:first-child {
+  padding-left: 25px;
+  width: 28%;
+}
+
+.gridName,
+.k-grid .k-grid-header-wrap tr th .k-link {
+  padding-left: 24px;
+}
+/*# sourceMappingURL=GridTable.css.map */

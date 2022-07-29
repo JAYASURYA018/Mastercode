@@ -1,0 +1,21 @@
+{
+  "timezone.label.timezone": "Zona horaria",
+  "timezone.label.MappedTimeZone": "Zona horaria seleccionada",
+  "timezone.tooltip.removeZone": "Deshabilitar zona horaria",
+  "timezone.dd.selected": "Seleccionada",
+  "timezone.dd.notSelected": "No seleccionada",
+  "timezone.popover.selectTimeZone": "Seleccione la zona horaria",
+  "timezone.popover.editTimeZone": "Editar zona horaria",
+  "timezone.alert.saved": "Zona horaria agregada correctamente",
+  "timezone.alert.modified": "Zona horaria modificada correctamente",
+  "timezone.alert.deleted": "Zona horaria eliminada correctamente",
+  "timezone.alert.delete": "Eliminar zona horaria",
+  "timezone.button.Save": "Guardar",
+  "timezone.button.Cancel": "Cancelar",
+  "timezone.myGridTimeZone.timezone.heading": "Zona horaria de la campaña",
+  "timezone.myGridTimeZone.description.heading": "Descripción",
+  "timezone.myGridTimeZone.enable.heading": "Habilitar",
+  "timezone.myGridTimeZone.enableInfo.heading": "Acción deshabilitada para las zonas horarias asignadas a la campaña.",
+  "timezone.alt.timezone-logo": "Logotipo de la zona horaria",
+  "timezone.pageheader": "Configuración del sistema"
+}
